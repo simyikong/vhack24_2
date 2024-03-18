@@ -17,12 +17,13 @@ import {
   Heading
 } from "@chakra-ui/react"
 import { useContext, useState } from "react"
-import { FaHeart, FaRegHeart, IoLogOutOutline, TbZoomMoney } from "react-icons/all"
+import {FaHeart, FaRegHeart, IoAccessibility, IoLogOutOutline, IoWallet, TbZoomMoney} from "react-icons/all"
 import { DataContext } from "../../../context/data.context"
 import styles from "../Layout.module.css"
 import { stocksArr } from "../../../utils/seeds/stocksArr"
 import StockTable from "../../Stocks/StocksComponents/StockTable"
-import { useNavigate } from "react-router-dom"
+import {Link, NavLink, useNavigate} from "react-router-dom"
+import axios from "axios";
 
 function Header() {
   const {
@@ -42,22 +43,63 @@ function Header() {
     setUser({userName: ''})
   }
 
-  const handleSearchStock = (e) => {
-    if (e.length > 1) {
-      setIsSearching(true)
-    } else {
-      setIsSearching(false)
-    }
-    let results = stocksArr.filter(stock => {
-      return stock.CompanyName.toLowerCase().includes(e.toLowerCase()) || stock.Symbol.toLowerCase().includes(e.toLowerCase())
-    })
-    if (results) {
-      setSearchResults(results)
-    }
-    if (!e) {
-      setSearchResults([])
-    }
+  const gotoProfile = () => {
+    navigate('/profile');
   }
+
+  const gotoWallet = () => {
+    navigate('/wallet');
+  };
+
+  // const handleSearchStock = (e) => {
+  //   if (e.length > 1) {
+  //     setIsSearching(true)
+  //   } else {
+  //     setIsSearching(false)
+  //   }
+  //   let results = stocksArr.filter(stock => {
+  //     return stock.CompanyName.toLowerCase().includes(e.toLowerCase()) || stock.Symbol.toLowerCase().includes(e.toLowerCase())
+  //   })
+  //   if (results) {
+  //     setSearchResults(results)
+  //   }
+  //   if (!e) {
+  //     setSearchResults([])
+  //   }
+  // }
+
+  const handleSearchStock = async (e) => {
+    if (e.length > 1) {
+      setIsSearching(true);
+      let results = stocksArr.filter(stock => {
+        return stock.CompanyName.toLowerCase().includes(e.toLowerCase()) || stock.Symbol.toLowerCase().includes(e.toLowerCase());
+      });
+      if (results) {
+        // Fetch stock details for each result
+        const promises = results.map(result => {
+          return axios.get('https://www.alphavantage.co/query', {
+            params: {
+              function: 'OVERVIEW',
+              symbol: result.Symbol,
+              apikey: 'W3RLH13DI7DYTJIO'
+            }
+          }).then(json => {
+            return {
+              ...result,
+              detail: json.data
+            };
+          });
+        });
+        const detailedResults = await Promise.all(promises);
+        setSearchResults(detailedResults);
+      }
+    } else {
+      setIsSearching(false);
+      setSearchResults([]);
+    }
+  };
+
+
 
   const handleOpenWatchlist = () => {
     setIsWatchlistOpen(!isWatchlistOpen)
@@ -146,9 +188,9 @@ function Header() {
               </Box>
             </MenuButton>
             <MenuList className={styles.menuList}>
-              {/* <MenuItem >Profile</MenuItem>
-            <MenuItem >Account</MenuItem>
-            <MenuDivider /> */}
+              <MenuItem icon={<IoAccessibility fontSize='1.5em' />} onClick={() => gotoProfile()}>Profile</MenuItem>
+            <MenuItem icon={<IoWallet fontSize='1.5em' />} onClick={() => gotoWallet()}>Wallet</MenuItem>
+            <MenuDivider />
               <MenuItem icon={<IoLogOutOutline fontSize='1.5em' />} onClick={() => handleLogOut()}>Logout</MenuItem>
             </MenuList>
           </Menu>

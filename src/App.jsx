@@ -9,6 +9,8 @@ import Overview from "./components/Overview/Overview"
 import Wallet from "./components/Wallet/Wallet"
 import { Welcomme } from "./components/Welcomme/Welcomme"
 import { DataContext } from "./context/data.context"
+import Ai from "./components/AI/Ai.jsx";
+import {Profile} from "./components/Profile/Profile.jsx";
 
 function App() {
   const { user } = useContext(DataContext)
@@ -26,6 +28,9 @@ function App() {
               <Route path='/wallet' element={<Wallet />} />
               <Route path='/news' element={<News />} />
               <Route path='*' element={<Overview />} />
+              <Route path='/ai' element={<Ai />} />
+              <Route path='/profile' element={<Profile />} />
+              <Route path='/stock-data' element={<StockDetails />} />
             </Routes>
           </Layout>
       }

@@ -172,7 +172,7 @@ function StockDetails({ symbol2, title, w }) {
                                         </Box>
                                     </Box>
                                     <Box display='flex' flexDirection='column' gap='5px'>
-                                        <Heading><strong>€ {Number(chartData.y[0]).toFixed(2)}</strong></Heading>
+                                        <Heading><strong>MYR {Number(chartData.y[0]).toFixed(2)}</strong></Heading>
                                         <Heading as='h3' w='90px'
                                             gap='10px'
                                             display='flex'
@@ -218,7 +218,7 @@ function StockDetails({ symbol2, title, w }) {
                                                     <SliderTrack >
                                                         <SliderFilledTrack />
                                                     </SliderTrack>
-                                                    <SliderThumb bgColor='#3F51B5' fontSize='1.1rem'><Box position='relative' top='-20px'>€{amount}</Box></SliderThumb>
+                                                    <SliderThumb bgColor='#3F51B5' fontSize='1.1rem'><Box position='relative' top='-20px'>MYR{amount}</Box></SliderThumb>
                                                 </Slider>
                                             </Box>
                                             <Box w='100%' display='flex' flexDirection='column' gap='15px'>

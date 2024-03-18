@@ -5,7 +5,6 @@ import Logo from "../Logo/Logo"
 import styles from './Welcomme.module.css'
 import {
     BsFillPersonFill,
-    SiBuymeacoffee,
     BsGithub
 } from 'react-icons/all'
 import { useNavigate } from 'react-router-dom'
@@ -39,11 +38,6 @@ export const Welcomme = () => {
                 <GridItem className={styles.leftGrid} colSpan={4} p='6%'>
                     <Box w='100%' display='flex' justifyContent='space-between' alignItems='center'>
                         <Logo size='2rem' />
-                        <Box w='fit-content' className={styles.socialLinks}>
-                            <Anchor href='https://github.com/oscargonzalezdev/investment-dashboard-client' isExternal><BsGithub /></Anchor>
-                            <Anchor href='https://www.oscargonzalez.dev' isExternal><BsFillPersonFill /></Anchor>
-                            <Anchor href='https://www.buymeacoffee.com/oscardev' isExternal><SiBuymeacoffee /></Anchor>
-                        </Box>
                     </Box>
                     <Box h='80%' display='flex' flexDirection='column' justifyContent='center' alignItems='center' gap='40px'>
                         <Box textAlign='center'>

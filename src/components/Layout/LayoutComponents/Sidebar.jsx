@@ -6,10 +6,7 @@ import {
     BsBarChartLine,
     TbZoomMoney,
     BiWallet,
-    HiOutlineNewspaper,
-    BsFillPersonFill,
-    SiBuymeacoffee,
-    BsGithub
+    HiOutlineNewspaper, TbStars,
 } from 'react-icons/all'
 import Logo from "../../Logo/Logo"
 import { Box, Link as Anchor, Divider } from "@chakra-ui/react"
@@ -24,6 +21,7 @@ function Sidebar() {
                 <ul>
                     <NavLink to={"/overview"} ><li><MdOutlineDashboard /><span>Overview</span></li></NavLink>
                     <NavLink to={"/stocks"}><li><TbZoomMoney /><span>Stocks</span></li></NavLink>
+                    <NavLink to={"/ai"}><li><TbStars /><span>AI</span></li></NavLink>
                     <NavLink to={"/investments"}><li><BsBarChartLine /><span>Investments</span></li></NavLink>
                     <NavLink to={"/wallet"}><li><BiWallet /><span>Wallet</span></li></NavLink>
                     <NavLink to={"/news"}><li><HiOutlineNewspaper /><span>News</span></li></NavLink>
