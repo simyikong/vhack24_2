@@ -20,11 +20,14 @@
     "framer-motion": "^7.5.3",
     "plotly.js": "^2.16.0",
     "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
+    "react-loader-spinner": "^6.1.6",
     "react-plotly.js": "^2.6.0",
     "react-router-dom": "^6.4.2",
-    "react-spinners": "^0.13.6"
+    "react-spinners": "^0.13.6",
+    "react-toast-notifications": "^2.5.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
