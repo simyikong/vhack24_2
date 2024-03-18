@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@400;700&family=Montserrat:wght@400;600;700&display=swap');
+@import-normalize;
+
+:root {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+
+  background-color: var(--color-bg-light);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* COLORS */
+  --color-primary: #3F51B5;
+  --color-secondary: #00BCD4;
+  --color-light: #ffffff;
+  --color-dark: #000000;
+  --color-bg-light: #efefef;
+  --color-bg-dark: #18181df4;
+  --color-bg-box-light: #ffffff;
+  --color-bg-box-dark: #242424;
+  --color-border-light: #e3e3e3;
+}
+
+html body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  min-width: fit-content;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 2px #ccc;
+  border: 0.5px solid #ccc;
+  border-radius: 8px;
+  gap: 20px;
+  background-color: var(--color-bg-box-light);
+  padding: 35px;
+}
+
+.section-title {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.avatar {
+  background: linear-gradient(190deg, #ddd0facf 0%, #A5DFF9cf 100%) !important;
+}
+
+.avatar svg {
+  color: var(--color-primary);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.5rem !important;
+}
+
+h2 {
+  font-size: 1.2rem !important;
+}
+
+h3 {
+  font-size: 1.1rem !important;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.stockList:hover {
+  background: linear-gradient(45deg, #ddd0fa40 0%, #A5DFF940 100%);
+}
+
+.stock-down {
+  color: rgb(240, 121, 36);
+}
+
+.stock-up {
+  color: rgb(43, 191, 161);
+}
+
+.flex-row {
+  display: flex;
+}
+
+.active {
+  color: #ffffff;
+  background: linear-gradient(45deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+  .flex-row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
