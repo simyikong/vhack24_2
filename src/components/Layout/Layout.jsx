@@ -14,7 +14,6 @@ function Layout({ children }) {
                     {children}
                     <span className={styles.footer}>
                         <Flex alignItems='center' gap='5px'>
-                            Made with <FaRegHeart display='flex' /> by <a href="https://oscargonzalez.dev" target="_blank" rel="noopener noreferrer">Oscar Gonzalez</a>
                         </Flex>
                     </span>
                 </main>

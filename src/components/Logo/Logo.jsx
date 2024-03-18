@@ -17,7 +17,7 @@ function Logo(props) {
                 bgGradient='linear(to-l, var(--color-primary) 10%, var(--color-secondary))'
                 bgClip='text'
             >
-                INVESTAPP
+                VHACK24
             </Text>
         </Box>
     )

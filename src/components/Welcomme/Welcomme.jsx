@@ -64,7 +64,7 @@ export const Welcomme = () => {
                                         pointerEvents='none'
                                         color='gray.300'
                                         fontSize='1.2em'
-                                        children='€'
+                                        children='RM'
                                     />
                                     <Input name='deposit' isRequired onChange={(e) => setInitialDeposit(e.currentTarget.value)} value={initialDeposit} type='number' max={1000000} min={100}>
                                     </Input>

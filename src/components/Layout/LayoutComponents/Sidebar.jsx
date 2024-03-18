@@ -30,11 +30,6 @@ function Sidebar() {
                 </ul>
                 <ul>
                     <Divider />
-                    <Box className={styles.socialLinks}>
-                        <Anchor href='https://github.com/oscargonzalezdev/investment-dashboard-client' isExternal><BsGithub /></Anchor>
-                        <Anchor href='https://www.oscargonzalez.dev' isExternal><BsFillPersonFill /></Anchor>
-                        <Anchor href='https://www.buymeacoffee.com/oscardev' isExternal><SiBuymeacoffee /></Anchor>
-                    </Box>
                 </ul>
             </nav>
         </aside>

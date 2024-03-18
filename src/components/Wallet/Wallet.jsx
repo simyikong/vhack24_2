@@ -46,7 +46,7 @@ function Wallet() {
                                 pointerEvents='none'
                                 color='gray.300'
                                 fontSize='1.2em'
-                                children='€'
+                                children='RM'
                             />
                             <Input variant='flushed' borderBottom='1px solid #ccc' flexGrow={1} onChange={(e) => setAmountDeposit(e.target.value)} w='100px' bg='#fff' type='number' min={1} max={1000000} placeholder='0' />
                         </InputGroup>
@@ -58,7 +58,7 @@ function Wallet() {
                                 pointerEvents='none'
                                 color='gray.300'
                                 fontSize='1.2em'
-                                children='€'
+                                children='RM'
                             />
                             <Input variant='flushed' borderBottom='1px solid #ccc' flexGrow={1} onChange={(e) => setAmountTransfer(e.target.value)} w='100px' bg='#fff' type='number' min={1} max={1000000} placeholder='0' />
                         </InputGroup>
