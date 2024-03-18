@@ -11,6 +11,7 @@ import { Welcomme } from "./components/Welcomme/Welcomme"
 import { DataContext } from "./context/data.context"
 import Ai from "./components/AI/Ai.jsx";
 import {Profile} from "./components/Profile/Profile.jsx";
+import EditProfile from "./components/Profile/EditProfile.jsx"
 
 function App() {
   const { user } = useContext(DataContext)
@@ -31,6 +32,7 @@ function App() {
               <Route path='/ai' element={<Ai />} />
               <Route path='/profile' element={<Profile />} />
               <Route path='/stock-data' element={<StockDetails />} />
+              <Route path='/editProfile' element={<EditProfile />} />
             </Routes>
           </Layout>
       }
