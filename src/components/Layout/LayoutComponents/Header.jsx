@@ -51,55 +51,22 @@ function Header() {
     navigate('/wallet');
   };
 
-  // const handleSearchStock = (e) => {
-  //   if (e.length > 1) {
-  //     setIsSearching(true)
-  //   } else {
-  //     setIsSearching(false)
-  //   }
-  //   let results = stocksArr.filter(stock => {
-  //     return stock.CompanyName.toLowerCase().includes(e.toLowerCase()) || stock.Symbol.toLowerCase().includes(e.toLowerCase())
-  //   })
-  //   if (results) {
-  //     setSearchResults(results)
-  //   }
-  //   if (!e) {
-  //     setSearchResults([])
-  //   }
-  // }
-
-  const handleSearchStock = async (e) => {
+  const handleSearchStock = (e) => {
     if (e.length > 1) {
-      setIsSearching(true);
-      let results = stocksArr.filter(stock => {
-        return stock.CompanyName.toLowerCase().includes(e.toLowerCase()) || stock.Symbol.toLowerCase().includes(e.toLowerCase());
-      });
-      if (results) {
-        // Fetch stock details for each result
-        const promises = results.map(result => {
-          return axios.get('https://www.alphavantage.co/query', {
-            params: {
-              function: 'OVERVIEW',
-              symbol: result.Symbol,
-              apikey: 'W3RLH13DI7DYTJIO'
-            }
-          }).then(json => {
-            return {
-              ...result,
-              detail: json.data
-            };
-          });
-        });
-        const detailedResults = await Promise.all(promises);
-        setSearchResults(detailedResults);
-      }
+      setIsSearching(true)
     } else {
-      setIsSearching(false);
-      setSearchResults([]);
+      setIsSearching(false)
     }
-  };
-
-
+    let results = stocksArr.filter(stock => {
+      return stock.CompanyName.toLowerCase().includes(e.toLowerCase()) || stock.Symbol.toLowerCase().includes(e.toLowerCase())
+    })
+    if (results) {
+      setSearchResults(results)
+    }
+    if (!e) {
+      setSearchResults([])
+    }
+  }
 
   const handleOpenWatchlist = () => {
     setIsWatchlistOpen(!isWatchlistOpen)

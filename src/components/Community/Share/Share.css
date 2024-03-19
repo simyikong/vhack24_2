@@ -1,0 +1,94 @@
+/* Share.css */
+.share {
+    width: 100%;
+    height: fit-content; /* Change height to fit-content */
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  }
+  
+  .shareWrapper {
+    padding: 15px; /* Adjust padding for better spacing */
+  }
+  
+  .shareTop {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add margin bottom for separation */
+  }
+  
+  .shareProfileImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .shareInput {
+    border: none;
+    flex: 1; /* Make the input take remaining space */
+    color: var(--color-dark);
+  }
+  
+  .shareInput:focus {
+    outline: none;
+  }
+  
+  .shareHr {
+    margin: 15px 0; /* Adjust margin for better separation */
+  }
+  
+  .shareBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-dark);
+  }
+
+    .shareOptions {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Align items vertically */
+    margin-left: 20px;
+  }
+  
+  .shareOption {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .shareIcon {
+    font-size: 18px;
+    margin-right: 3px;
+  }
+  
+  .shareOptionText {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .sharebox {
+    min-width: fit-content;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 2px #ccc;
+    border: 0.5px solid #ccc;
+    border-radius: 8px;
+    gap: 20px;
+    background-color: #e9eef5;
+    padding: 35px;
+  }
+
+  .shareButton{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: teal;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+}
+  

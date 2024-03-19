@@ -1,8 +1,7 @@
 import { Box, Heading, Link as RouterLink, Image } from '@chakra-ui/react';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
-import { Link } from 'react-router-dom';
 
-export const Profile = () => {
+export const Groups = () => {
     // This is just a placeholder. Replace it with your actual user data.
     const user = {
         name: 'John Doe',
@@ -24,9 +23,9 @@ export const Profile = () => {
                 <Box className="text-lg mb-2"><strong>Name:</strong> {user.name}</Box>
                 <Box className="text-lg mb-2"><strong>Email:</strong> {user.email}</Box>
                 <Box className="text-lg mb-4"><strong>Bio:</strong> {user.bio}</Box>
-                <Link to="/editProfile" className="block w-full text-center py-2 bg-blue-600 text-white rounded hover:bg-blue-500 mb-4">
+                <RouterLink to="/EditProfile" className="block w-full text-center py-2 bg-blue-600 text-white rounded hover:bg-blue-500 mb-4">
                     Edit Profile
-                </Link>
+                </RouterLink>
                 <Box className="border-b border-white mb-4"></Box>
                 <Box className="flex flex-col items-center">
                     {user.bankLinks.map((bank, index) => (
