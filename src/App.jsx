@@ -11,6 +11,7 @@ import { Welcomme } from "./components/Welcomme/Welcomme"
 import { DataContext } from "./context/data.context"
 import Ai from "./components/AI/Ai.jsx";
 import {Profile} from "./components/Profile/Profile.jsx";
+import {Community} from "./components/Community/Community.jsx"
 import EditProfile from "./components/Profile/EditProfile.jsx"
 import AllStocks from "./components/StockData/AllStocks.jsx";
 
@@ -32,8 +33,11 @@ function App() {
               <Route path='*' element={<Overview />} />
               <Route path='/ai' element={<Ai />} />
               <Route path='/profile' element={<Profile />} />
+              <Route path='/stock-data' element={<StockDetails />} />
+              <Route path='/community' element={<Community />} />
               <Route path="/stock-data" element={<AllStocks />}/>
               <Route path='/editProfile' element={<EditProfile />} />
+
             </Routes>
           </Layout>
       }

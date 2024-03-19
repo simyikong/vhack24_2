@@ -1,0 +1,67 @@
+.rightbarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .rightbarUserInfo {
+    background-color: transparent; /* or match the background color of homeContainer */
+    padding: 10px;
+    width: 200px;
+    margin: 0; /* Add this to remove default margins */
+  }
+  
+  
+  .rightbarHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .rightbarUsername {
+    font-weight: bold;
+    color: var(--color-dark); 
+  }
+  
+  .rightbarDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .rightbarPrice,
+  .rightbarPriceChange {
+    font-size: 14px;
+    color: var(--color-dark); 
+  }
+  
+  .progressBar {
+    background-color: #37474f;
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 8px;
+    position: relative;
+  }
+  
+  .progress {
+    background-color: #66bb6a;
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+  }
+  
+  /* Tooltip */
+  .progressBar:hover::after {
+    content: "Discussed frequency";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--color-light); /* Use the light color defined in index.css */
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  
