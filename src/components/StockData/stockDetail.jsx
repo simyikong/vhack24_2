@@ -4,13 +4,13 @@ import { useState, useEffect } from 'react';
 const API_KEY = 'W3RLH13DI7DYTJIO';
 const API_BASE_URL = 'https://www.alphavantage.co/query';
 
-const StockDetail = ({ stockSymbol }) => {
+const StockDetail = ({stockSymbol}) => {
     const [stockDetail, setStockDetail] = useState(null);
     const [stock, setStock] = useState(null);
 
     useEffect(() => {
         const viewStockDetail = () => {
-            axios.get(API_BASE_URL, {
+            axios.get(`${API_BASE_URL}`, {
                 params: {
                     function: 'OVERVIEW',
                     symbol: stockSymbol,
@@ -19,16 +19,16 @@ const StockDetail = ({ stockSymbol }) => {
             }).then(json => {
                 setStock(stockSymbol);
                 setStockDetail(json.data);
-            });
-        };
+            })
+        }
         if (stockSymbol && stockSymbol !== stock) {
             viewStockDetail();
         }
-    }, [stockSymbol, stock]);
+    }, [stockSymbol, stockDetail, stock]);
 
     return (
-        <>
-            {stockDetail?.hasOwnProperty('Description') ? (
+        // eslint-disable-next-line no-prototype-builtins
+        (stockDetail?.hasOwnProperty('Description')) ? (
                 <div className='stock-detail-container'>
                     <div className='stock-detail-basic'>{stockSymbol.toUpperCase()} ({stockDetail.Exchange})</div>
                     <div className='stock-detail-basic'>{stockDetail.Sector} | {stockDetail.Industry} | {stockDetail.Country}</div>
@@ -48,15 +48,13 @@ const StockDetail = ({ stockSymbol }) => {
                         </tbody>
                     </table>
                 </div>
-            ) : (
-                stockSymbol && (
-                    <p className='errorTxt'>
-                        <span>This is awkward...&#128517;</span> <br />
-                    </p>
-                )
-            )}
-        </>
-    );
-};
+            )
+            : (stockSymbol && (
+                <p className='errorTxt'>
+                    <span>Please ensure that you key in the correct stock.&#128517;</span> <br />
+                </p>
+            ))
+    )
+}
 
 export default StockDetail;
