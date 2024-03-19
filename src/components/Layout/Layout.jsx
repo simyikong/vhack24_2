@@ -1,7 +1,6 @@
 import Header from "./LayoutComponents/Header"
 import Sidebar from "./LayoutComponents/Sidebar"
 import styles from "./Layout.module.css"
-import { FaRegHeart } from "react-icons/all"
 import { Flex } from "@chakra-ui/react"
 
 function Layout({ children }) {
