@@ -28,8 +28,7 @@ function PredictionComponent(props) {
 
                 <div className="quote" style={{backgroundColor:"#bb9457",color:"black"}}>
                     <h4>Today's Adj Close</h4>
-                    <h2>{props.data.adj_close}</h2>
-                </div>
+                    <h2>{props.data.adj_close}</h2></div>
 
                 <div className="quote" style={{backgroundColor:"#dd1c1a",color:"black"}}>
                     <h4>Today's Close</h4>
