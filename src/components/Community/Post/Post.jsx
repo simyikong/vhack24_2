@@ -1,4 +1,3 @@
-import { BiDotsHorizontalRounded } from 'react-icons/all';
 import { Users } from "../dummyData.js";
 import { useState } from "react";
 import "./Post.css"; // Import Post.css for component-specific styles
@@ -26,9 +25,6 @@ export default function Post({ post }) {
               {Users.filter((u) => u.id === post?.userId)[0].username}
             </span>
             <span className="postDate">{post.date}</span>
-          </div>
-          <div className="postTopRight">
-            <BiDotsHorizontalRounded />
           </div>
         </div>
         <div className="postCenter">

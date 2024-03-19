@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import SearchIcon from '@material-ui/icons/Search';
 import SearchResultList from './searchResultList.jsx';
-import {Button, Input, InputGroup, InputLeftElement} from "@chakra-ui/react";
-import {TbZoomMoney} from "react-icons/all.js";
 
 const API_KEY = 'W3RLH13DI7DYTJIO';
 const API_BASE_URL = 'https://www.alphavantage.co/query';

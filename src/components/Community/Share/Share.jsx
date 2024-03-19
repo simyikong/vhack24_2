@@ -1,6 +1,4 @@
 import "./Share.css";
-import { BiImageAdd } from 'react-icons/bi';
-import { FaTag } from 'react-icons/fa';
 
 export default function Share() {
   return (
@@ -17,11 +15,9 @@ export default function Share() {
         <div className="shareBottom">
             <div className="shareOptions">
                 <div className="shareOption">
-                    <BiImageAdd htmlColor="tomato" className="shareIcon"/>
                     <span className="shareOptionText">Photo or Video</span>
                 </div>
                 <div className="shareOption">
-                    <FaTag htmlColor="blue" className="shareIcon"/>
                     <span className="shareOptionText">Tag</span>
                 </div>
             </div>
