@@ -29,7 +29,9 @@
     "react-plotly.js": "^2.6.0",
     "react-router-dom": "^6.4.2",
     "react-spinners": "^0.13.6",
-    "react-toast-notifications": "^2.5.1"
+    "react-toast-notifications": "^2.5.1",
+    "vite-plugin-svgr": "^4.2.0",
+    "vite-tsconfig-paths": "^4.3.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

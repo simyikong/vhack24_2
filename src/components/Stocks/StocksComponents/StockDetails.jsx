@@ -26,11 +26,13 @@ import {
     DrawerCloseButton
 } from '@chakra-ui/react'
 import {
-    BsFillArrowDownRightCircleFill as StockDown,
-    BsFillArrowUpRightCircleFill as StockUp,
     FaHeart,
     FaRegHeart,
-} from 'react-icons/all'
+} from 'react-icons/fa'
+import {
+    BsFillArrowDownRightCircleFill as StockDown,
+    BsFillArrowUpRightCircleFill as StockUp,
+} from 'react-icons/bs'
 import SkewLoader from "react-spinners/SkewLoader"
 
 function StockDetails({ symbol2, title, w }) {

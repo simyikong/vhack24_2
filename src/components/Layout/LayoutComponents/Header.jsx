@@ -17,13 +17,15 @@ import {
   Heading
 } from "@chakra-ui/react"
 import { useContext, useState } from "react"
-import {FaHeart, FaRegHeart, IoAccessibility, IoLogOutOutline, IoWallet, TbZoomMoney} from "react-icons/all"
+import {FaHeart, FaRegHeart} from "react-icons/fa"
 import { DataContext } from "../../../context/data.context"
 import styles from "../Layout.module.css"
 import { stocksArr } from "../../../utils/seeds/stocksArr"
 import StockTable from "../../Stocks/StocksComponents/StockTable"
 import {Link, NavLink, useNavigate} from "react-router-dom"
 import axios from "axios";
+import {TbZoomMoney} from "react-icons/tb";
+import {IoAccessibility, IoLogOutOutline, IoWallet} from "react-icons/io5";
 
 function Header() {
   const {

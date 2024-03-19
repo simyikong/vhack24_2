@@ -3,10 +3,6 @@ import { useContext, useState } from "react"
 import { DataContext } from "../../context/data.context"
 import Logo from "../Logo/Logo"
 import styles from './Welcomme.module.css'
-import {
-    BsFillPersonFill,
-    BsGithub
-} from 'react-icons/all'
 import { useNavigate } from 'react-router-dom'
 
 export const Welcomme = () => {

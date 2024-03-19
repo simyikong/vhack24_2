@@ -13,11 +13,13 @@ import {
     Text
 } from '@chakra-ui/react'
 import {
-    BsFillArrowDownRightCircleFill as StockDown,
-    BsFillArrowUpRightCircleFill as StockUp,
     FaHeart,
     FaRegHeart,
-} from 'react-icons/all'
+} from 'react-icons/fa'
+import {
+    BsFillArrowDownRightCircleFill as StockDown,
+    BsFillArrowUpRightCircleFill as StockUp,
+} from 'react-icons/bs'
 import { useNavigate } from 'react-router-dom'
 import { DataContext } from '../../../context/data.context'
 

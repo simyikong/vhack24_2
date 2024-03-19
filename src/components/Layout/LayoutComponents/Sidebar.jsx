@@ -1,17 +1,14 @@
 import styles from "../Layout.module.css"
 import { NavLink } from "react-router-dom"
-import {
-    FcAreaChart,
-    MdOutlineDashboard,
-    BsBarChartLine,
-    TbZoomMoney,
-    BiWallet,
-    HiOutlineNewspaper, TbStars,
-    BiGroup
-} from 'react-icons/all'
 
 import Logo from "../../Logo/Logo"
 import { Box, Link as Anchor, Divider } from "@chakra-ui/react"
+import {FcAreaChart} from "react-icons/fc";
+import {MdOutlineDashboard} from "react-icons/md";
+import {TbStars, TbZoomMoney} from "react-icons/tb";
+import {BsBarChartLine} from "react-icons/bs";
+import {BiGroup, BiWallet} from "react-icons/bi";
+import {HiOutlineNewspaper} from "react-icons/hi";
 
 function Sidebar() {
 
