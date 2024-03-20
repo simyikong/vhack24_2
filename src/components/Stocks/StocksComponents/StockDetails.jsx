@@ -161,7 +161,7 @@ function StockDetails({ symbol2, title, w }) {
                                 <Box display='flex' justifyContent='space-between' alignItems='center' textAlign='left'>
                                     <Box display='flex' alignItems='center' gap='10px'>
                                         <Box border='1px solid #ccc' h='60px' w='60px' borderRadius={8} display='flex' alignItems='center' m='auto'>
-                                            {/*<Image p='6px' w='100%' h='auto' src={stockInfo.LogoUrl} />*/}
+                                            <Image p='6px' w='100%' h='auto' src={stockInfo.LogoUrl} />
                                         </Box>
                                         <Box>
                                             <Box display='flex' justifyContent='center' alignItems='center'  >
