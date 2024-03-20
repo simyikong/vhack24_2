@@ -33,7 +33,7 @@ function App() {
               <Route path='*' element={<Overview />} />
               <Route path='/ai' element={<Ai />} />
               <Route path='/profile' element={<Profile />} />
-              <Route path='/stock-data' element={<StockDetails />} />
+              {/*<Route path='/stock-data' element={<StockDetails />} />*/}
               <Route path='/community' element={<Community />} />
               <Route path="/stock-data" element={<AllStocks />}/>
               <Route path='/editProfile' element={<EditProfile />} />
