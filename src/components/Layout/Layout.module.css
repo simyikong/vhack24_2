@@ -56,6 +56,7 @@
     width: fit-content;
     max-width: 240px;
     transition: width 0.8s;
+    z-index: 3
 }
 
 .logo {

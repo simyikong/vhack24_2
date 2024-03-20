@@ -1,6 +1,7 @@
 import React from "react";
 import { Stocks } from "../dummyData";
 import MostDiscussed from "../MostDiscussed/MostDiscussed";
+import '../Feed/Feed.css';
 
 const MostDiscussedRightbar = () => {
   return (

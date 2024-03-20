@@ -37,7 +37,6 @@ function App() {
               <Route path='/community' element={<Community />} />
               <Route path="/stock-data" element={<AllStocks />}/>
               <Route path='/editProfile' element={<EditProfile />} />
-
             </Routes>
           </Layout>
       }
