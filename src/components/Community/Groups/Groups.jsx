@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Posts } from '../dummyData.js';
-import './Feed.css';
+import '../Feed/Feed.css';
 import Post from '../Post/Post';
 import Share from '../Share/Share';
 
-export default function Feed() {
+export default function Groups() {
   const [feedType, setFeedType] = useState('newest');
 
   const handleFeedTypeChange = (type) => {
@@ -18,10 +18,10 @@ export default function Feed() {
       {/* Feed Controls */}
       <div className="feedControls">
         <button className={feedType === 'newest' ? 'active' : ''} onClick={() => handleFeedTypeChange('newest')}>
-          Newest
+          NewestGrp
         </button>
         <button className={feedType === 'trending' ? 'active' : ''} onClick={() => handleFeedTypeChange('trending')}>
-          Trending
+          TrendingGrp
         </button>
       </div>
       
