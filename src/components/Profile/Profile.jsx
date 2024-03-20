@@ -9,6 +9,7 @@ export const Profile = () => {
         email: 'john.doe@example.com',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         image: 'https://via.placeholder.com/150', // Placeholder image URL
+        isMuslim: false,
         bankLinks: [
             { name: 'Bank A', link: 'https://bankA.com' },
             { name: 'Bank B', link: 'https://bankB.com' },
@@ -24,6 +25,8 @@ export const Profile = () => {
                 <Box className="text-lg mb-2"><strong>Name:</strong> {user.name}</Box>
                 <Box className="text-lg mb-2"><strong>Email:</strong> {user.email}</Box>
                 <Box className="text-lg mb-4"><strong>Bio:</strong> {user.bio}</Box>
+                <Box className="text-lg mb-2"><strong>Muslim:</strong> {user.isMuslim ? 'Yes' : 'No'}</Box>
+                <br></br>
                 <Link to="/editProfile" className="block w-full text-center py-2 bg-blue-600 text-white rounded hover:bg-blue-500 mb-4">
                     Edit Profile
                 </Link>
