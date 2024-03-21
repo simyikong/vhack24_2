@@ -14,6 +14,7 @@ import {Profile} from "./components/Profile/Profile.jsx";
 import {Community} from "./components/Community/Community.jsx"
 import EditProfile from "./components/Profile/EditProfile.jsx"
 import AllStocks from "./components/StockData/AllStocks.jsx";
+import Learning from "./components/Learning/LearningPage.jsx"
 
 function App() {
   const { user } = useContext(DataContext)
@@ -37,6 +38,7 @@ function App() {
               <Route path='/community' element={<Community />} />
               <Route path="/stock-data" element={<AllStocks />}/>
               <Route path='/editProfile' element={<EditProfile />} />
+              <Route path='/learning' element={<Learning />} />
             </Routes>
           </Layout>
       }
