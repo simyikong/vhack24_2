@@ -14,11 +14,18 @@ import {
 import { useContext, useState } from "react"
 import { DataContext } from "../../context/data.context"
 import { formatCurrency } from "../../utils/formatCurrency"
+import { useNavigate } from 'react-router-dom';
 
 function Wallet() {
     const { wallet, balance } = useContext(DataContext)
     const [amountDeposit, setAmountDeposit] = useState(0)
     const [amountTransfer, setAmountTransfer] = useState(0)
+    
+    const navigate = useNavigate();
+
+    const handleButtonClick = () => {
+        navigate('/calcInv');
+    };
 
     return (
         <>
@@ -64,6 +71,11 @@ function Wallet() {
                         </InputGroup>
                         <Button disabled={amountTransfer < 1 ? true : false} variant='solid' colorScheme='teal'>Transfer</Button>
                     </Box>
+                </Box>
+                <Box display='flex' justifyContent='space-between' alignItems='center' marginTop='30px'>
+                <Button onClick={handleButtonClick} mt={4}>
+                    Budget Page
+                </Button>
                 </Box>
             </Box>
         </>
