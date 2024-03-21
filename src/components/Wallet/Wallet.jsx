@@ -30,7 +30,7 @@ function Wallet() {
     return (
         <>
             <Box className='box'>
-                <Heading classNapme='section-title'>Wallet</Heading>
+                <Heading className='section-title'>Wallet</Heading>
                 <TableContainer border='1px solid #ccc' borderRadius='8px' p='5px' >
                     <Table variant='unstyled'>
                         <Tbody>
