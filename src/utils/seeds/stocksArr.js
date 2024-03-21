@@ -1,12 +1,53 @@
 export const stocksArr = [
     {
+        "Symbol": "PMHLDG",
+        "Revenue": "30.54B",
+        "LogoUrl": "https://eodhistoricaldata.com/img/logos/US/googl.png",
+        "CompanyName": "PAN MALAYSIA HOLDINGS BERHAD",
+        "MarketCap": "75.85B",
+        "PriceChange": "-6.67%",
+        "Price": 0.210,
+        "IsShariahCompliant": true
+    },
+    {
+        "Symbol": "KAWAN",
+        "Revenue": "6.42B",
+        "LogoUrl": "https://eodhistoricaldata.com/img/logos/US/googl.png",
+        "CompanyName": "KAWAN FOOD BERHAD",
+        "MarketCap": "1.85B",
+        "PriceChange": "-0.67%",
+        "Price": 1.20,
+        "IsShariahCompliant": true
+    },
+    {
+        "Symbol": "MRDIY",
+        "Revenue": "1.15B",
+        "LogoUrl": "https://eodhistoricaldata.com/img/logos/US/googl.png",
+        "CompanyName": "MR D.I.Y. GROUP (M) BERHAD",
+        "MarketCap": "1.25B",
+        "PriceChange": "-6.67%",
+        "Price": 0.98,
+        "IsShariahCompliant": true
+    },
+    {
+        "Symbol": "DNEX",
+        "Revenue": "1.89B",
+        "LogoUrl": "https://eodhistoricaldata.com/img/logos/US/googl.png",
+        "CompanyName": "DAGANG NEXCHANGE BERHAD",
+        "MarketCap": "1.21B",
+        "PriceChange": "2.67%",
+        "Price": 1.08,
+        "IsShariahCompliant": true
+    },
+    {
         "Symbol": "AAPL",
         "Revenue": "387.54B",
         "LogoUrl": "https://eodhistoricaldata.com/img/logos/US/aapl.png",
         "CompanyName": "Apple Inc.",
         "MarketCap": "2,251.36B",
         "PriceChange": "-3.67%",
-        "Price": 140.09
+        "Price": 140.09,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "MSFT",
@@ -15,7 +56,8 @@ export const stocksArr = [
         "CompanyName": "Microsoft Corporation",
         "MarketCap": "1,746.94B",
         "PriceChange": "-5.09%",
-        "Price": 234.24
+        "Price": 234.24,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "GOOGL",
@@ -24,7 +66,8 @@ export const stocksArr = [
         "CompanyName": "Alphabet, Inc.",
         "MarketCap": "1,292.67B",
         "PriceChange": "-2.70%",
-        "Price": 98.68
+        "Price": 98.68,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "AMZN",
@@ -33,7 +76,8 @@ export const stocksArr = [
         "CompanyName": "Amazon.com, Inc.",
         "MarketCap": "1,167.09B",
         "PriceChange": "-4.77%",
-        "Price": 114.56
+        "Price": 114.56,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "TSLA",
@@ -42,7 +86,8 @@ export const stocksArr = [
         "CompanyName": "Tesla, Inc.",
         "MarketCap": "698.98B",
         "PriceChange": "-6.32%",
-        "Price": 223.07
+        "Price": 223.07,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "UNH",
@@ -51,7 +96,8 @@ export const stocksArr = [
         "CompanyName": "UnitedHealth Group Incorporated",
         "MarketCap": "472.23B",
         "PriceChange": "-2.75%",
-        "Price": 504.85
+        "Price": 504.85,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "JNJ",
@@ -60,7 +106,8 @@ export const stocksArr = [
         "CompanyName": "Johnson & Johnson",
         "MarketCap": "421.19B",
         "PriceChange": "-1.06%",
-        "Price": 160.2
+        "Price": 160.2,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "XOM",
@@ -69,7 +116,8 @@ export const stocksArr = [
         "CompanyName": "Exxon Mobil Corporation",
         "MarketCap": "421.06B",
         "PriceChange": "-1.01%",
-        "Price": 101.03
+        "Price": 101.03,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "V",
@@ -78,7 +126,8 @@ export const stocksArr = [
         "CompanyName": "Visa Inc.",
         "MarketCap": "387.41B",
         "PriceChange": "-0.95%",
-        "Price": 183.83
+        "Price": 183.83,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "TSM",
@@ -87,7 +136,8 @@ export const stocksArr = [
         "CompanyName": "Taiwan Semiconductor Manufacturing Company Limited",
         "MarketCap": "359.81B",
         "PriceChange": "-6.19%",
-        "Price": 69.75
+        "Price": 69.75,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "META",
@@ -96,7 +146,8 @@ export const stocksArr = [
         "CompanyName": "Meta Platforms, Inc.",
         "MarketCap": "358.65B",
         "PriceChange": "-4.04%",
-        "Price": 133.45
+        "Price": 133.45,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "WMT",
@@ -105,7 +156,8 @@ export const stocksArr = [
         "CompanyName": "Walmart, Inc.",
         "MarketCap": "348.94B",
         "PriceChange": "-2.37%",
-        "Price": 128.56
+        "Price": 128.56,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "CVX",
@@ -114,7 +166,8 @@ export const stocksArr = [
         "CompanyName": "Chevron Corporation",
         "MarketCap": "313.25B",
         "PriceChange": "-0.86%",
-        "Price": 160.03
+        "Price": 160.03,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "JPM",
@@ -123,7 +176,8 @@ export const stocksArr = [
         "CompanyName": "JPMorgan Chase & Co.",
         "MarketCap": "310.79B",
         "PriceChange": "-2.00%",
-        "Price": 105.98
+        "Price": 105.98,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "LLY",
@@ -132,7 +186,8 @@ export const stocksArr = [
         "CompanyName": "Eli Lilly and Company",
         "MarketCap": "310.38B",
         "PriceChange": "-1.89%",
-        "Price": 326.66
+        "Price": 326.66,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "NVDA",
@@ -141,7 +196,8 @@ export const stocksArr = [
         "CompanyName": "NVIDIA Corporation",
         "MarketCap": "300.93B",
         "PriceChange": "-8.03%",
-        "Price": 120.76
+        "Price": 120.76,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "PG",
@@ -150,7 +206,8 @@ export const stocksArr = [
         "CompanyName": "The Procter & Gamble Company",
         "MarketCap": "296.45B",
         "PriceChange": "-1.75%",
-        "Price": 124.27
+        "Price": 124.27,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "HD",
@@ -159,7 +216,8 @@ export const stocksArr = [
         "CompanyName": "The Home Depot, Inc.",
         "MarketCap": "291.07B",
         "PriceChange": "-2.09%",
-        "Price": 284.32
+        "Price": 284.32,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "MA",
@@ -168,7 +226,8 @@ export const stocksArr = [
         "CompanyName": "Mastercard Incorporated",
         "MarketCap": "285.05B",
         "PriceChange": "-1.42%",
-        "Price": 294.97
+        "Price": 294.97,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "BAC",
@@ -177,7 +236,8 @@ export const stocksArr = [
         "CompanyName": "Bank of America Corporation",
         "MarketCap": "247.08B",
         "PriceChange": "-2.26%",
-        "Price": 30.75
+        "Price": 30.75,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "ABBV",
@@ -186,7 +246,8 @@ export const stocksArr = [
         "CompanyName": "AbbVie Inc.",
         "MarketCap": "245.34B",
         "PriceChange": "-1.09%",
-        "Price": 138.76
+        "Price": 138.76,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "NVO",
@@ -195,7 +256,8 @@ export const stocksArr = [
         "CompanyName": "Novo Nordisk A/S",
         "MarketCap": "240.62B",
         "PriceChange": "-1.66%",
-        "Price": 104.06
+        "Price": 104.06,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "PFE",
@@ -204,7 +266,8 @@ export const stocksArr = [
         "CompanyName": "Pfizer Inc.",
         "MarketCap": "237.51B",
         "PriceChange": "-1.79%",
-        "Price": 42.32
+        "Price": 42.32,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "KO",
@@ -213,7 +276,8 @@ export const stocksArr = [
         "CompanyName": "The Coca-Cola Company",
         "MarketCap": "235.74B",
         "PriceChange": "-0.95%",
-        "Price": 54.51
+        "Price": 54.51,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "PEP",
@@ -222,7 +286,8 @@ export const stocksArr = [
         "CompanyName": "PepsiCo, Inc.",
         "MarketCap": "223.03B",
         "PriceChange": "-0.73%",
-        "Price": 161.61
+        "Price": 161.61,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "MRK",
@@ -231,7 +296,8 @@ export const stocksArr = [
         "CompanyName": "Merck & Co., Inc.",
         "MarketCap": "221.92B",
         "PriceChange": "0.18%",
-        "Price": 87.6
+        "Price": 87.6,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "BABA",
@@ -240,7 +306,8 @@ export const stocksArr = [
         "CompanyName": "Alibaba Group Holding Ltd",
         "MarketCap": "219.48B",
         "PriceChange": "-3.65%",
-        "Price": 81.24
+        "Price": 81.24,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "COST",
@@ -249,7 +316,8 @@ export const stocksArr = [
         "CompanyName": "Costco Wholesale Corporation",
         "MarketCap": "207.21B",
         "PriceChange": "-2.97%",
-        "Price": 468.15
+        "Price": 468.15,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "TMO",
@@ -258,7 +326,8 @@ export const stocksArr = [
         "CompanyName": "Thermo Fisher Scientific, Inc.",
         "MarketCap": "205.14B",
         "PriceChange": "-3.14%",
-        "Price": 523.61
+        "Price": 523.61,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "DHR",
@@ -267,7 +336,8 @@ export const stocksArr = [
         "CompanyName": "Danaher Corporation",
         "MarketCap": "195.30B",
         "PriceChange": "-3.44%",
-        "Price": 268.48
+        "Price": 268.48,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "ASML",
@@ -276,7 +346,8 @@ export const stocksArr = [
         "CompanyName": "ASML Holding N.V.",
         "MarketCap": "187.56B",
         "PriceChange": "-6.03%",
-        "Price": 434.26
+        "Price": 434.26,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "AVGO",
@@ -285,7 +356,8 @@ export const stocksArr = [
         "CompanyName": "Broadcom Inc.",
         "MarketCap": "186.50B",
         "PriceChange": "-3.97%",
-        "Price": 460.48
+        "Price": 460.48,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "TM",
@@ -294,7 +366,8 @@ export const stocksArr = [
         "CompanyName": "Toyota Motor Corporation",
         "MarketCap": "185.33B",
         "PriceChange": "-0.24%",
-        "Price": 135.85
+        "Price": 135.85,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "BHP",
@@ -303,7 +376,8 @@ export const stocksArr = [
         "CompanyName": "BHP Group Limited",
         "MarketCap": "184.23B",
         "PriceChange": "-0.76%",
-        "Price": 51.18
+        "Price": 51.18,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "DIS",
@@ -312,7 +386,8 @@ export const stocksArr = [
         "CompanyName": "The Walt Disney Company",
         "MarketCap": "177.13B",
         "PriceChange": "-2.88%",
-        "Price": 97.16
+        "Price": 97.16,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "TMUS",
@@ -321,7 +396,8 @@ export const stocksArr = [
         "CompanyName": "T-Mobile US, Inc.",
         "MarketCap": "172.54B",
         "PriceChange": "-1.31%",
-        "Price": 137.59
+        "Price": 137.59,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "MCD",
@@ -330,7 +406,8 @@ export const stocksArr = [
         "CompanyName": "McDonald's Corporation",
         "MarketCap": "171.56B",
         "PriceChange": "-0.67%",
-        "Price": 233.19
+        "Price": 233.19,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "ORCL",
@@ -339,7 +416,8 @@ export const stocksArr = [
         "CompanyName": "Oracle Corporation",
         "MarketCap": "170.64B",
         "PriceChange": "-3.08%",
-        "Price": 63.29
+        "Price": 63.29,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "NVS",
@@ -348,7 +426,8 @@ export const stocksArr = [
         "CompanyName": "Novartis AG",
         "MarketCap": "166.52B",
         "PriceChange": "-0.51%",
-        "Price": 75.65
+        "Price": 75.65,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "CSCO",
@@ -357,7 +436,8 @@ export const stocksArr = [
         "CompanyName": "Cisco Systems, Inc.",
         "MarketCap": "165.46B",
         "PriceChange": "-3.01%",
-        "Price": 40.27
+        "Price": 40.27,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "ACN",
@@ -366,7 +446,8 @@ export const stocksArr = [
         "CompanyName": "Accenture plc",
         "MarketCap": "164.27B",
         "PriceChange": "-3.62%",
-        "Price": 259.71
+        "Price": 259.71,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "WFC",
@@ -375,7 +456,8 @@ export const stocksArr = [
         "CompanyName": "Wells Fargo & Company",
         "MarketCap": "158.51B",
         "PriceChange": "-1.07%",
-        "Price": 41.79
+        "Price": 41.79,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "VZ",
@@ -384,7 +466,8 @@ export const stocksArr = [
         "CompanyName": "Verizon Communications, Inc.",
         "MarketCap": "154.76B",
         "PriceChange": "-2.62%",
-        "Price": 36.85
+        "Price": 36.85,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "COP",
@@ -393,7 +476,8 @@ export const stocksArr = [
         "CompanyName": "ConocoPhillips",
         "MarketCap": "150.87B",
         "PriceChange": "0.73%",
-        "Price": 118.51
+        "Price": 118.51,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "NEE",
@@ -402,7 +486,8 @@ export const stocksArr = [
         "CompanyName": "NextEra Energy, Inc.",
         "MarketCap": "150.76B",
         "PriceChange": "-2.76%",
-        "Price": 76.73
+        "Price": 76.73,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "CRM",
@@ -411,7 +496,8 @@ export const stocksArr = [
         "CompanyName": "Salesforce.com Inc",
         "MarketCap": "150.29B",
         "PriceChange": "-3.33%",
-        "Price": 150.29
+        "Price": 150.29,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "BMY",
@@ -420,7 +506,8 @@ export const stocksArr = [
         "CompanyName": "Bristol-Myers Squibb Company",
         "MarketCap": "148.83B",
         "PriceChange": "-0.77%",
-        "Price": 69.7
+        "Price": 69.7,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "FMX",
@@ -429,7 +516,8 @@ export const stocksArr = [
         "CompanyName": "Fomento Economico Mexicano SAB de CV",
         "MarketCap": "146.10B",
         "PriceChange": "-2.06%",
-        "Price": 63.67
+        "Price": 63.67,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "TXN",
@@ -438,7 +526,8 @@ export const stocksArr = [
         "CompanyName": "Texas Instruments Incorporated",
         "MarketCap": "144.70B",
         "PriceChange": "-4.36%",
-        "Price": 159.28
+        "Price": 159.28,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "SCHW",
@@ -447,7 +536,8 @@ export const stocksArr = [
         "CompanyName": "The Charles Schwab Corporation",
         "MarketCap": "140.97B",
         "PriceChange": "-2.21%",
-        "Price": 74.31
+        "Price": 74.31,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "ADBE",
@@ -456,7 +546,8 @@ export const stocksArr = [
         "CompanyName": "Adobe Inc.",
         "MarketCap": "138.73B",
         "PriceChange": "-3.23%",
-        "Price": 288.77
+        "Price": 288.77,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "UPS",
@@ -465,7 +556,8 @@ export const stocksArr = [
         "CompanyName": "United Parcel Service, Inc.",
         "MarketCap": "137.66B",
         "PriceChange": "-3.90%",
-        "Price": 159.14
+        "Price": 159.14,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "NKE",
@@ -474,7 +566,8 @@ export const stocksArr = [
         "CompanyName": "Nike, Inc.",
         "MarketCap": "136.37B",
         "PriceChange": "-3.34%",
-        "Price": 87.16
+        "Price": 87.16,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "LIN",
@@ -483,7 +576,8 @@ export const stocksArr = [
         "CompanyName": "Linde plc",
         "MarketCap": "136.15B",
         "PriceChange": "-2.02%",
-        "Price": 273.2
+        "Price": 273.2,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "QCOM",
@@ -492,7 +586,8 @@ export const stocksArr = [
         "CompanyName": "Qualcomm Incorporated",
         "MarketCap": "135.78B",
         "PriceChange": "-3.49%",
-        "Price": 120.91
+        "Price": 120.91,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "MS",
@@ -501,7 +596,8 @@ export const stocksArr = [
         "CompanyName": "Morgan Stanley",
         "MarketCap": "135.51B",
         "PriceChange": "-2.93%",
-        "Price": 78.93
+        "Price": 78.93,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "PM",
@@ -510,7 +606,8 @@ export const stocksArr = [
         "CompanyName": "Philip Morris International Inc.",
         "MarketCap": "131.22B",
         "PriceChange": "-0.96%",
-        "Price": 84.65
+        "Price": 84.65,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "CMCSA",
@@ -519,7 +616,8 @@ export const stocksArr = [
         "CompanyName": "Comcast Corporation",
         "MarketCap": "129.18B",
         "PriceChange": "-2.60%",
-        "Price": 29.27
+        "Price": 29.27,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "RTX",
@@ -528,7 +626,8 @@ export const stocksArr = [
         "CompanyName": "Raytheon Technologies Corporation",
         "MarketCap": "123.64B",
         "PriceChange": "-0.32%",
-        "Price": 84.01
+        "Price": 84.01,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "LOW",
@@ -537,7 +636,8 @@ export const stocksArr = [
         "CompanyName": "Lowe's Companies, Inc.",
         "MarketCap": "122.41B",
         "PriceChange": "-1.39%",
-        "Price": 197.21
+        "Price": 197.21,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "UNP",
@@ -546,7 +646,8 @@ export const stocksArr = [
         "CompanyName": "Union Pacific Corporation",
         "MarketCap": "122.16B",
         "PriceChange": "-1.31%",
-        "Price": 195.62
+        "Price": 195.62,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "UL",
@@ -555,7 +656,8 @@ export const stocksArr = [
         "CompanyName": "Unilever PLC",
         "MarketCap": "113.45B",
         "PriceChange": "-0.87%",
-        "Price": 43.35
+        "Price": 43.35,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "EQNR",
@@ -564,7 +666,8 @@ export const stocksArr = [
         "CompanyName": "Equinor ASA",
         "MarketCap": "111.45B",
         "PriceChange": "-0.20%",
-        "Price": 35.24
+        "Price": 35.24,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "INTU",
@@ -573,7 +676,8 @@ export const stocksArr = [
         "CompanyName": "Intuit Inc.",
         "MarketCap": "110.76B",
         "PriceChange": "-4.46%",
-        "Price": 392.96
+        "Price": 392.96,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "MDT",
@@ -582,7 +686,8 @@ export const stocksArr = [
         "CompanyName": "Medtronic plc.",
         "MarketCap": "109.55B",
         "PriceChange": "-2.37%",
-        "Price": 82.42
+        "Price": 82.42,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "TD",
@@ -591,7 +696,8 @@ export const stocksArr = [
         "CompanyName": "The Toronto-Dominion Bank",
         "MarketCap": "108.50B",
         "PriceChange": "-1.42%",
-        "Price": 59.82
+        "Price": 59.82,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "LMT",
@@ -600,7 +706,8 @@ export const stocksArr = [
         "CompanyName": "Lockheed Martin Corporation",
         "MarketCap": "107.11B",
         "PriceChange": "1.09%",
-        "Price": 403.96
+        "Price": 403.96,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "HSBC",
@@ -609,7 +716,8 @@ export const stocksArr = [
         "CompanyName": "HSBC Holdings PLC",
         "MarketCap": "106.85B",
         "PriceChange": "-0.91%",
-        "Price": 26.15
+        "Price": 26.15,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "IBM",
@@ -618,7 +726,8 @@ export const stocksArr = [
         "CompanyName": "International Business Machines Corporation",
         "MarketCap": "106.50B",
         "PriceChange": "-2.79%",
-        "Price": 118.82
+        "Price": 118.82,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "T",
@@ -627,7 +736,8 @@ export const stocksArr = [
         "CompanyName": "AT&T, Inc.",
         "MarketCap": "106.46B",
         "PriceChange": "-2.48%",
-        "Price": 14.94
+        "Price": 14.94,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "INTC",
@@ -636,7 +746,8 @@ export const stocksArr = [
         "CompanyName": "Intel Corporation",
         "MarketCap": "105.61B",
         "PriceChange": "-5.37%",
-        "Price": 25.72
+        "Price": 25.72,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "PYPL",
@@ -645,7 +756,8 @@ export const stocksArr = [
         "CompanyName": "PayPal Holdings, Inc.",
         "MarketCap": "104.28B",
         "PriceChange": "-4.50%",
-        "Price": 90.17
+        "Price": 90.17,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "AXP",
@@ -654,7 +766,8 @@ export const stocksArr = [
         "CompanyName": "American Express Company",
         "MarketCap": "104.21B",
         "PriceChange": "-2.37%",
-        "Price": 139
+        "Price": 139,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "BX",
@@ -663,7 +776,8 @@ export const stocksArr = [
         "CompanyName": "Blackstone Inc.",
         "MarketCap": "104.00B",
         "PriceChange": "-5.71%",
-        "Price": 86.38
+        "Price": 86.38,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "GS",
@@ -672,7 +786,8 @@ export const stocksArr = [
         "CompanyName": "The Goldman Sachs Group, Inc.",
         "MarketCap": "102.78B",
         "PriceChange": "-1.18%",
-        "Price": 301.08
+        "Price": 301.08,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "SPGI",
@@ -681,7 +796,8 @@ export const stocksArr = [
         "CompanyName": "S&P Global Inc.",
         "MarketCap": "101.56B",
         "PriceChange": "-3.68%",
-        "Price": 304.53
+        "Price": 304.53,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "NFLX",
@@ -690,7 +806,8 @@ export const stocksArr = [
         "CompanyName": "Netflix, Inc.",
         "MarketCap": "99.95B",
         "PriceChange": "-6.36%",
-        "Price": 224.75
+        "Price": 224.75,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "SBUX",
@@ -699,7 +816,8 @@ export const stocksArr = [
         "CompanyName": "Starbucks Corporation",
         "MarketCap": "99.86B",
         "PriceChange": "-2.60%",
-        "Price": 87.03
+        "Price": 87.03,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "SAP",
@@ -708,7 +826,8 @@ export const stocksArr = [
         "CompanyName": "SAP SE",
         "MarketCap": "99.29B",
         "PriceChange": "-2.12%",
-        "Price": 84.53
+        "Price": 84.53,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "SNY",
@@ -717,7 +836,8 @@ export const stocksArr = [
         "CompanyName": "Sanofi",
         "MarketCap": "98.59B",
         "PriceChange": "-0.10%",
-        "Price": 38.86
+        "Price": 38.86,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "BP",
@@ -726,7 +846,8 @@ export const stocksArr = [
         "CompanyName": "BP plc",
         "MarketCap": "96.98B",
         "PriceChange": "-0.19%",
-        "Price": 31.08
+        "Price": 31.08,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "HDB",
@@ -735,7 +856,8 @@ export const stocksArr = [
         "CompanyName": "HDFC Bank Limited",
         "MarketCap": "96.76B",
         "PriceChange": "-3.27%",
-        "Price": 57.45
+        "Price": 57.45,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "DEO",
@@ -744,7 +866,8 @@ export const stocksArr = [
         "CompanyName": "Diageo PLC",
         "MarketCap": "96.42B",
         "PriceChange": "-0.77%",
-        "Price": 167.3
+        "Price": 167.3,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "AMD",
@@ -753,7 +876,8 @@ export const stocksArr = [
         "CompanyName": "Advanced Micro Devices, Inc.",
         "MarketCap": "94.34B",
         "PriceChange": "-13.87%",
-        "Price": 58.44
+        "Price": 58.44,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "ADP",
@@ -762,7 +886,8 @@ export const stocksArr = [
         "CompanyName": "Automatic Data Processing, Inc.",
         "MarketCap": "94.32B",
         "PriceChange": "-3.31%",
-        "Price": 227.12
+        "Price": 227.12,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "RIO",
@@ -771,7 +896,8 @@ export const stocksArr = [
         "CompanyName": "Rio Tinto PLC",
         "MarketCap": "93.10B",
         "PriceChange": "0.23%",
-        "Price": 57.3
+        "Price": 57.3,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "PLD",
@@ -780,7 +906,8 @@ export const stocksArr = [
         "CompanyName": "Prologis, Inc.",
         "MarketCap": "92.66B",
         "PriceChange": "-1.53%",
-        "Price": 100.36
+        "Price": 100.36,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "BUD",
@@ -789,7 +916,8 @@ export const stocksArr = [
         "CompanyName": "Anheuser-Busch InBev SA/NV",
         "MarketCap": "92.04B",
         "PriceChange": "-1.09%",
-        "Price": 45.32
+        "Price": 45.32,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "AMT",
@@ -807,7 +935,8 @@ export const stocksArr = [
         "CompanyName": "British American Tobacco PLC",
         "MarketCap": "83.24B",
         "PriceChange": "0.71%",
-        "Price": 36.81
+        "Price": 36.81,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "BLK",
@@ -816,7 +945,8 @@ export const stocksArr = [
         "CompanyName": "BlackRock, Inc.",
         "MarketCap": "82.98B",
         "PriceChange": "-3.71%",
-        "Price": 550.4
+        "Price": 550.4,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "C",
@@ -825,7 +955,8 @@ export const stocksArr = [
         "CompanyName": "Citigroup, Inc.",
         "MarketCap": "81.71B",
         "PriceChange": "-2.02%",
-        "Price": 42.19
+        "Price": 42.19,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "NOW",
@@ -834,7 +965,8 @@ export const stocksArr = [
         "CompanyName": "ServiceNow, Inc.",
         "MarketCap": "81.04B",
         "PriceChange": "-4.12%",
-        "Price": 401.21
+        "Price": 401.21,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "SYK",
@@ -843,7 +975,8 @@ export const stocksArr = [
         "CompanyName": "Stryker Corporation",
         "MarketCap": "78.89B",
         "PriceChange": "-1.37%",
-        "Price": 208.52
+        "Price": 208.52,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "REGN",
@@ -852,7 +985,8 @@ export const stocksArr = [
         "CompanyName": "Regeneron Pharmaceuticals, Inc.",
         "MarketCap": "78.74B",
         "PriceChange": "-1.30%",
-        "Price": 722.37
+        "Price": 722.37,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "EL",
@@ -861,7 +995,8 @@ export const stocksArr = [
         "CompanyName": "The Estee Lauder Companies, Inc.",
         "MarketCap": "78.48B",
         "PriceChange": "-4.07%",
-        "Price": 219.77
+        "Price": 219.77,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "CB",
@@ -870,7 +1005,8 @@ export const stocksArr = [
         "CompanyName": "Chubb Ltd.",
         "MarketCap": "77.23B",
         "PriceChange": "-2.19%",
-        "Price": 184.68
+        "Price": 184.68,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "MO",
@@ -879,7 +1015,8 @@ export const stocksArr = [
         "CompanyName": "Altria Group, Inc.",
         "MarketCap": "77.11B",
         "PriceChange": "-0.40%",
-        "Price": 42.82
+        "Price": 42.82,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "BA",
@@ -888,7 +1025,8 @@ export const stocksArr = [
         "CompanyName": "The Boeing Company",
         "MarketCap": "77.07B",
         "PriceChange": "-1.82%",
-        "Price": 129.79
+        "Price": 129.79,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "NOC",
@@ -897,7 +1035,8 @@ export const stocksArr = [
         "CompanyName": "Northrop Grumman Corporation",
         "MarketCap": "76.75B",
         "PriceChange": "2.24%",
-        "Price": 496.09
+        "Price": 496.09,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "MMC",
@@ -906,7 +1045,8 @@ export const stocksArr = [
         "CompanyName": "Marsh & McLennan Companies, Inc.",
         "MarketCap": "75.95B",
         "PriceChange": "-3.26%",
-        "Price": 152.19
+        "Price": 152.19,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "ENB",
@@ -915,7 +1055,8 @@ export const stocksArr = [
         "CompanyName": "Enbridge Inc.",
         "MarketCap": "75.85B",
         "PriceChange": "-0.38%",
-        "Price": 37.05
+        "Price": 37.05,
+        "IsShariahCompliant": false
     },
     {
         "Symbol": "MDLZ",

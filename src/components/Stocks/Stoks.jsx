@@ -9,7 +9,7 @@ function StocksList() {
     const navigate = useNavigate();
 
     const learnStocksCompanies = () => {
-        navigate("/stock-data");
+        navigate("/stock-data-all");
     };
 
     return (
