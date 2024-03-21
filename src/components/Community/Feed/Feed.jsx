@@ -1,25 +1,31 @@
 import React, { useState } from 'react';
+import { Posts } from '../dummyData.js';
+import './Feed.css';
 import Post from '../Post/Post';
 import Share from '../Share/Share';
-import './Feed.css';
-import { Posts } from '../dummyData.js';
 
 export default function Feed() {
-  const [feedType, setFeedType] = useState('newest'); // Default feed type is 'newest'
+  const [feedType, setFeedType] = useState('newest');
 
   const handleFeedTypeChange = (type) => {
     setFeedType(type);
   };
 
-  // Filter posts based on selected feed type
-  const filteredPosts = feedType === 'newest' ? Posts : /* Add trending posts filtering logic here */ [];
+  const filteredPosts = feedType === 'newest' ? Posts : [];
 
   return (
     <div className="feed">
+      {/* Feed Controls */}
       <div className="feedControls">
-        <button className={feedType === 'newest' ? 'active' : ''} onClick={() => handleFeedTypeChange('newest')}>Newest</button>
-        <button className={feedType === 'trending' ? 'active' : ''} onClick={() => handleFeedTypeChange('trending')}>Trending</button>
+        <button className={feedType === 'newest' ? 'active' : ''} onClick={() => handleFeedTypeChange('newest')}>
+          Newest
+        </button>
+        <button className={feedType === 'trending' ? 'active' : ''} onClick={() => handleFeedTypeChange('trending')}>
+          Trending
+        </button>
       </div>
+      
+      {/* Feed Wrapper */}
       <div className="feedWrapper">
         <Share />
         {filteredPosts.map((p) => (

@@ -49,7 +49,7 @@ function StockDetails({ symbol2, title, w }) {
     const [stocksToSell, setStocksToSell] = useState(0)
     const [selectedOption, setSelectedOption] = useState('')
     const [amount, setAmount] = useState(0)
-    const apiKey = 'TA4JH3O6GF8X4SLJ'
+    const apiKey = 'W3RLH13DI7DYTJIO'
     const baseUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=${symbol === 'IBM' ? 'demo' : apiKey}`
 
     useEffect(() => {

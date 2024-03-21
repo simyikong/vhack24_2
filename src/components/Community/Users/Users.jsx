@@ -1,7 +1,7 @@
 import { Box, Heading, Link as RouterLink, Image } from '@chakra-ui/react';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 
-export const Groups = () => {
+export const Users = () => {
     // This is just a placeholder. Replace it with your actual user data.
     const user = {
         name: 'John Doe',
