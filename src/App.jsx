@@ -14,6 +14,7 @@ import {Profile} from "./components/Profile/Profile.jsx";
 import {Community} from "./components/Community/Community.jsx"
 import EditProfile from "./components/Profile/EditProfile.jsx"
 import AllStocks from "./components/StockData/AllStocks.jsx";
+import {CalcInv} from "./components/Wallet/CalcInv.jsx";
 
 function App() {
   const { user } = useContext(DataContext)
@@ -35,9 +36,9 @@ function App() {
               <Route path='/profile' element={<Profile />} />
               <Route path='/stock-data' element={<StockDetails />} />
               <Route path='/community' element={<Community />} />
-              <Route path="/stock-data" element={<AllStocks />}/>
+              <Route path="/stock-data-all" element={<AllStocks />}/>
               <Route path='/editProfile' element={<EditProfile />} />
-
+              <Route path='/calcInv' element={<CalcInv />} />
             </Routes>
           </Layout>
       }
