@@ -1,55 +1,96 @@
 export const Users = [
-    {
-      id:1,
-      profilePicture: "assets/person/1.jpeg",
-      username: "Safak Kocaoglu",
-    },
-    {
-      id:2,
-      profilePicture: "assets/person/2.jpeg",
-      username: "Janell Shrum",
-    },
-    {
-      id:3,
-      profilePicture: "assets/person/3.jpeg",
-      username: "Alex Durden",
-    },
-    {
-      id:4,
-      profilePicture: "assets/person/4.jpeg",
-      username: "Dora Hawks",
-    },
-    {
-      id:5,
-      profilePicture: "assets/person/5.jpeg",
-      username: "Thomas Holden",
-    },
-    {
-      id:6,
-      profilePicture: "assets/person/6.jpeg",
-      username: "Shirley Beauchamp",
-    },
-    {
-      id:7,
-      profilePicture: "assets/person/7.jpeg",
-      username: "Travis Bennett",
-    },
-    {
-      id:8,
-      profilePicture: "assets/person/8.jpeg",
-      username: "Kristen Thomas",
-    },
-    {
-      id:9,
-      profilePicture: "assets/person/9.jpeg",
-      username: "Gary Duty",
-    },
-    {
-      id:10,
-      profilePicture: "assets/person/10.jpeg",
-      username: "Safak Kocaoglu",
-    },
-  ];
+  {
+    id: 1,
+    profilePicture: "assets/person/1.jpeg",
+    username: "Safak Kocaoglu",
+    occupation: "Software Engineer",
+    age: 30,
+    livingPlace: "New York City, USA",
+    joinedIn: "2020-05-15"
+  },
+  {
+    id: 2,
+    profilePicture: "assets/person/2.jpeg",
+    username: "Janell Shrum",
+    occupation: "Graphic Designer",
+    age: 28,
+    livingPlace: "Los Angeles, USA",
+    joinedIn: "2019-11-20"
+  },
+  {
+    id: 3,
+    profilePicture: "assets/person/3.jpeg",
+    username: "Alex Durden",
+    occupation: "Marketing Manager",
+    age: 35,
+    livingPlace: "Chicago, USA",
+    joinedIn: "2021-02-10"
+  },
+  {
+    id: 4,
+    profilePicture: "assets/person/4.jpeg",
+    username: "Dora Hawks",
+    occupation: "Teacher",
+    age: 40,
+    livingPlace: "Houston, USA",
+    joinedIn: "2018-09-05"
+  },
+  {
+    id: 5,
+    profilePicture: "assets/person/5.jpeg",
+    username: "Thomas Holden",
+    occupation: "Financial Analyst",
+    age: 32,
+    livingPlace: "San Francisco, USA",
+    joinedIn: "2022-03-01"
+  },
+  {
+    id: 6,
+    profilePicture: "assets/person/6.jpeg",
+    username: "Shirley Beauchamp",
+    occupation: "Nurse",
+    age: 45,
+    livingPlace: "Miami, USA",
+    joinedIn: "2017-07-12"
+  },
+  {
+    id: 7,
+    profilePicture: "assets/person/7.jpeg",
+    username: "Travis Bennett",
+    occupation: "Lawyer",
+    age: 38,
+    livingPlace: "Boston, USA",
+    joinedIn: "2020-08-22"
+  },
+  {
+    id: 8,
+    profilePicture: "assets/person/8.jpeg",
+    username: "Kristen Thomas",
+    occupation: "Writer",
+    age: 29,
+    livingPlace: "Seattle, USA",
+    joinedIn: "2019-04-18"
+  },
+  {
+    id: 9,
+    profilePicture: "assets/person/9.jpeg",
+    username: "Gary Duty",
+    occupation: "Chef",
+    age: 36,
+    livingPlace: "Austin, USA",
+    joinedIn: "2023-01-10"
+  },
+  {
+    id: 10,
+    profilePicture: "assets/person/10.jpeg",
+    username: "Safak Kocaoglu",
+    occupation: "Data Scientist",
+    age: 33,
+    livingPlace: "Denver, USA",
+    joinedIn: "2021-11-30"
+  }
+];
+
   
   export const Posts = [
     {

@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .module-box {
+    width: 300px;
+    border: 2px solid var(--color-primary); /* Change border to use primary color */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white; /* Set a white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow */
+  }
+  
+  .module-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .module-box p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-primary); /* Use primary color for buttons */
+    color: white; /* Set text color to white */
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly darken on hover */
+  }
+  
