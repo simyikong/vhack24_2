@@ -22,7 +22,7 @@ function Sidebar() {
                     <NavLink to={"/stocks"}><li><TbZoomMoney /><span>Stocks</span></li></NavLink>
                     <NavLink to={"/ai"}><li><TbStars /><span>AI</span></li></NavLink>
                     <NavLink to={"/investments"}><li><BsBarChartLine /><span>Investments</span></li></NavLink>
-                    <NavLink to={"/community"}><li><BiGroup /><span>Community</span></li></NavLink>
+                    <NavLink to={"/community"}><li><BiGroup /><span>Forum</span></li></NavLink>
                     <NavLink to={"/wallet"}><li><BiWallet /><span>Wallet</span></li></NavLink>
                     <NavLink to={"/news"}><li><HiOutlineNewspaper /><span>News</span></li></NavLink>
                 </ul>

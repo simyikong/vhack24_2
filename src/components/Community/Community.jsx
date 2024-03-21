@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Feed from "./Feed/Feed";
 import Groups from "./Groups/Groups"; 
+import UsersPage from "./UsersPage/UsersPage"
 import CommunityRightBar from "./CommunityRightBar/CommunityRightBar";
 import FeedOptionsBar from "./FeedOptionsBar/FeedOptionsBar"; // Import FeedOptionsBar component
 import "./Community.css";
@@ -19,7 +20,7 @@ export const Community = () => {
       case 'groups':
         return <Groups />;
       case 'users':
-        return <Users />;
+        return <UsersPage />;
       default:
         return <Feed />;
     }
