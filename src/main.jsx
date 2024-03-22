@@ -23,7 +23,6 @@ const colors = {
 
 const theme = extendTheme({ colors })
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // <React.StrictMode>
     <ChakraProvider theme={theme}>
       <DataProviderWrapper>
         <Router>
@@ -31,5 +30,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </Router>
       </DataProviderWrapper>
     </ChakraProvider>
-  // </React.StrictMode>
 )
