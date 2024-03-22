@@ -10,7 +10,8 @@ import {
     Tr,
     Td,
     Image,
-    Text
+    Text,
+    Flex
 } from '@chakra-ui/react';
 import {
     FaHeart,
@@ -27,6 +28,8 @@ function StockTable({ data, type, title, w, h }) {
     const [showShariahCompliant, setShowShariahCompliant] = useState(false);
     const { getTrendingStocks, buttonSelected, watchlist, setWatchlist, setSearchResults, setIsSearching } = useContext(DataContext);
     const navigate = useNavigate();
+    const [currentPage, setCurrentPage] = useState(1);
+    const pageSize = 10; // Number of items per page
 
     const handleViewDetails = (symbol) => {
         navigate(`/stocks/${symbol}`);
@@ -53,11 +56,15 @@ function StockTable({ data, type, title, w, h }) {
 
     const filteredData = showShariahCompliant ? data.filter(stock => stock.IsShariahCompliant) : data;
 
-    // const [isSyariah, setIsSyariah] = useState(false);
-    //
-    // const toggleSyariah = () => {
-    //     setIsSyariah(!isSyariah);
-    // };
+    const startIndex = (currentPage - 1) * pageSize;
+    const endIndex = startIndex + pageSize;
+    const currentData = filteredData.slice(startIndex, endIndex);
+
+    const totalPages = Math.ceil(filteredData.length / pageSize);
+
+    const changePage = (page) => {
+        setCurrentPage(page);
+    };
 
     return (
         <>
@@ -163,9 +170,21 @@ function StockTable({ data, type, title, w, h }) {
                             </Tbody>
                         </Table>
                     </TableContainer>
-                </Box>
-            )}
-        </>
+                    {/* Pagination */}
+                    <Flex justifyContent='center' alignItems='center' marginTop='20px'>
+                        {Array.from({ length: totalPages }, (_, i) => (
+                            <Button
+                                key={i}
+                                onClick={() => changePage(i + 1)}
+                                colorScheme={currentPage === i + 1 ? 'blue' : 'gray'}
+                                size='sm'
+                                margin='5px'
+                            >
+                                {i + 1}
+                            </Button>
+                        ))}
+                    </Flex>
+                </Box>)} </>
     );
 }
 
