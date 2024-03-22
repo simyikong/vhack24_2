@@ -9,6 +9,7 @@ import {TbStars, TbZoomMoney} from "react-icons/tb";
 import {BsBarChartLine} from "react-icons/bs";
 import {BiGroup, BiWallet} from "react-icons/bi";
 import {HiOutlineNewspaper} from "react-icons/hi";
+import { AiOutlineBook } from "react-icons/ai";
 
 function Sidebar() {
 
@@ -23,9 +24,10 @@ function Sidebar() {
                     <NavLink to={"/ai"}><li><TbStars /><span>AI</span></li></NavLink>
                     <NavLink to={"/investments"}><li><BsBarChartLine /><span>Investments</span></li></NavLink>
                     <NavLink to={"/community"}><li><BiGroup /><span>Forum</span></li></NavLink>
+                    <NavLink to={"/learning"}><li><AiOutlineBook /><span>Learning</span></li></NavLink>
                     <NavLink to={"/wallet"}><li><BiWallet /><span>Wallet</span></li></NavLink>
                     <NavLink to={"/news"}><li><HiOutlineNewspaper /><span>News</span></li></NavLink>
-                    <NavLink to={"/learning"}><li><HiOutlineNewspaper /><span>Learning</span></li></NavLink>
+            
                 </ul>
                 <ul>
                     <Divider />

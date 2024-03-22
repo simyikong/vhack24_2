@@ -16,6 +16,8 @@ import EditProfile from "./components/Profile/EditProfile.jsx"
 import AllStocks from "./components/StockData/AllStocks.jsx";
 import Learning from "./components/Learning/LearningPage.jsx"
 import {CalcInv} from "./components/Wallet/CalcInv.jsx";
+import Module1KnowMore from "./components/Learning/Module1/Module1KnowMore.jsx";
+import Module1Chap1 from "./components/Learning/Module1/Modul1Chap1/Module1Chap1.jsx";
 
 function App() {
   const { user } = useContext(DataContext)
@@ -41,7 +43,8 @@ function App() {
               <Route path='/editProfile' element={<EditProfile />} />
               <Route path='/learning' element={<Learning />} />
               <Route path='/calcInv' element={<CalcInv />} />
-
+              <Route path='/module1-knowmore' element={<Module1KnowMore />} />
+              <Route path='/module1-chap1' element={<Module1Chap1 />} />
             </Routes>
           </Layout>
       }
