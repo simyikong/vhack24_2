@@ -45,21 +45,12 @@
   transition: background-color 0.3s ease;
 }
 
-.button-container button.know-more {
+.button-container button.viewmodule {
   background-color: var(--color-primary); /* Set default button color */
 }
 
-.button-container button.take-test {
-  background-color: var(--color-secondary); /* Set default button color */
-}
-
-
-.button-container button.know-more:hover {
+.button-container button.viewmodule:hover {
   background-color: #334290; /* Darker color code for the "Know more" button */
-}
-
-.button-container button.take-test:hover {
-  background-color: #008b9a; /* Darker color code for the "Take a test" button */
 }
 
 .progress-bar {

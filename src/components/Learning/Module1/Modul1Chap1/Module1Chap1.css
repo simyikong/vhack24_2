@@ -1,110 +1,46 @@
-/* Module1-KnowMore.css */
-.module-detail-container {
-  max-width: 800px;
-  margin: 20px auto; /* Added margin to create space around the container */
+/* Module1Chap1.css */
+
+.module1-chap1-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.module-details {
-  padding: 20px;
-  background-color: #f9f9f9; /* Background color for module-details */
-  border-radius: 8px; /* Rounded border */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add box shadow */
-  margin-bottom: 20px; /* Add margin between module-details and chapters */
+h1 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-.module-details h1 {
-  color: #333;
-  font-size: 28px;
-  margin-bottom: 10px; /* Adjust margin */
-  font-weight: bold; /* Bold the heading */
+h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
-.module-details p {
-  color: #555;
-  font-size: 16px;
-  line-height: 1.6;
-  margin-bottom: 0; /* Remove default margin */
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
-.chapters-objectives {
-  display: flex; /* Display children (chapters and objectives) side by side */
+.test-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-.chapters {
-  flex: 0.7; /* Make chapters take up 70% of the width */
-  padding: 20px;
-  background-color: #fff; /* Background color for chapters */
-  border-radius: 8px; /* Rounded border */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add box shadow */
-  margin-right: 20px; /* Add margin to the right */
-  margin-bottom: 20px; /* Add margin between chapters and objectives */
-}
-
-.chapters h2 {
-  color: #333;
-  font-size: 20px;
-  margin-top: 20px;
-  font-weight: bold; /* Bold the heading */
-  text-align: center; /* Center-align the title */
-}
-
-.chapters ol {
-  margin-left: 0; /* Reset margin */
-  padding-left: 20px;
-}
-
-.chapters li {
-  color: #555;
-  font-size: 16px;
-  line-height: 1.6;
-  margin-bottom: 8px;
-  text-align: left; /* Left-align list items */
-}
-
-.objectives {
-  flex: 0.3; /* Make objectives take up 30% of the width */
-  padding: 20px;
-  background-color: #fff; /* Background color for objectives */
-  border-radius: 8px; /* Rounded border */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add box shadow */
-  margin-bottom: 20px; /* Add margin between objectives and module-details */
-}
-
-.objectives h2 {
-  color: #333;
-  font-size: 20px;
-  margin-top: 20px;
-  font-weight: bold; /* Bold the heading */
-  text-align: center; /* Center-align the title */
-}
-
-.objectives ul {
-  margin-left: 10px; /* Adjust margin */
-}
-
-.objectives li {
-  color: #555;
-  font-size: 16px;
-  line-height: 1.6;
-  margin-bottom: 8px;
-}
-
-.start-button {
-  padding: 8px 16px;
-  margin-left: 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.start-button:hover {
-  background-color: #0056b3;
-}
-
-.tick-mark {
-  color: green;
-  font-weight: bold;
-  margin-right: 5px; /* Adjust spacing between the tick mark and the chapter name */
+.test-button:hover {
+    background-color: #0056b3;
 }

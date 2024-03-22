@@ -1,58 +1,50 @@
 import React from 'react';
-import './Module1KnowMore.css'; // Import the CSS file with the improved styles
-import { NavLink } from 'react-router-dom';
+import './Module1KnowMore.css'; // Assuming LearningPage.css is where you'll put your CSS
+import { NavLink } from 'react-router-dom'; 
 
-const Module1KnowMore = () => {
-  // Module data
-  const moduleInfo = {
-    title: "Module I: Securities Foundation",
-    description: "This module aims to communicate basic knowledge of the Indian securities markets to the readers and all related rules and regulations. It also covers the crucial steps in the financial planning process.",
-    objectives: [
-      "Introduce the Indian securities market.",
-      "Detail the various rules and regulations governing the market.",
-      "Outline the steps in the financial planning process.",
-    ],
-    chapters: [
-      { name: "Chapter 1: Introduction to Securities Market", completed: true },
-      { name: "Chapter 2: Market Regulations", completed: false },
-      { name: "Chapter 3: Financial Planning", completed: true },
-    ]
-  };
+const ModuleBox = ({ title, description, progress }) => {
+  const isCompleted = progress === 100;
 
   return (
-    <div className="module-detail-container">
-      <div className="module-details">
-        <h1>{moduleInfo.title}</h1>
-        <p>{moduleInfo.description}</p>
+    <div className={`module-box ${isCompleted ? 'completed' : ''}`}>
+      <h2>{title}</h2>
+      <p>{description}</p>
+      <div className="progress-bar">
+        <div className="progress" style={{ width: `${progress}%` }}></div>
       </div>
-      <div className="chapters-objectives">
-        <div className="chapters">
-          <h2>Chapters</h2>
-          <ol>
-            {moduleInfo.chapters.map((chapter, index) => (
-              <li key={index}>
-                {chapter.completed && (
-                  <span className="tick-mark">&#10003;</span>
-                )}
-                {chapter.name}
-                <NavLink to={`/module1-chap${index + 1}`}>
-                  <button className="start-button">Start</button>
-                </NavLink>
-              </li>
-            ))}
-          </ol>
+      <div className="button-container">
+        <NavLink to="/module1-chap1">
+          <button className="start-button">View module</button>
+        </NavLink>
         </div>
-        <div className="objectives">
-          <h2>Objectives</h2>
-          <ul>
-            {moduleInfo.objectives.map((objective, index) => (
-              <li key={index}>{objective}</li>
-            ))}
-          </ul>
-        </div>
-      </div>
     </div>
   );
 };
+
+const Module1KnowMore = () => (
+  <div className="container">
+    <ModuleBox
+      title="Module I: Shariah Equities"
+      description="Learn more about Shariah-compliant trading and investing"
+      progress={20} // Example progress value
+    />
+    <ModuleBox
+      title="Module II: Shariah Derivatives"
+      description="Learn more about Shariah-compliant derivatives products"
+      progress={100} // Example progress value indicating completion
+    />
+    <ModuleBox
+      title="Module III: Bursa Suq As-Sila’"
+      description="Learn more about the commodity platform for Islamic Finance"
+      progress={40} // Example progress value
+    />
+    <ModuleBox
+      title="Module IV: Islamic Social Finance"
+      description="Learn more about the socioeconomic importance in Islamic Financeyyy"
+      progress={40} // Example progress value
+    />
+  </div>
+);
+
 
 export default Module1KnowMore;
