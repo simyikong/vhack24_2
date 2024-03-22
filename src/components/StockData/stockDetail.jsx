@@ -30,23 +30,25 @@ const StockDetail = ({stockSymbol}) => {
         // eslint-disable-next-line no-prototype-builtins
         (stockDetail?.hasOwnProperty('Description')) ? (
                 <div className='stock-detail-container'>
-                    <div className='stock-detail-basic'>{stockSymbol.toUpperCase()} ({stockDetail.Exchange})</div>
-                    <div className='stock-detail-basic'>{stockDetail.Sector} | {stockDetail.Industry} | {stockDetail.Country}</div>
-                    <p>{stockDetail && stockDetail.Description}</p>
-                    <table className='stock-detail-table'>
+                    <div className='stock-detail-basic text-black font-bold'>{stockSymbol.toUpperCase()} ({stockDetail.Exchange})</div>
+                    <div className='stock-detail-basic text-black'>{stockDetail.Sector} | {stockDetail.Industry} | {stockDetail.Country}</div>
+                    <p className='text-black'>{stockDetail && stockDetail.Description}</p>
+                    <table className='stock-detail-table border-b-2 border-blue-900 mx-auto my-4 border-collapse border'>
                         <tbody>
-                        <tr><td className='colSpan-2' colSpan={2}>Key stats</td></tr>
-                        <tr><td>Market Cap: </td><td>{stockDetail.MarketCapitalization}</td></tr>
-                        <tr><td>EBITDA: </td><td>{stockDetail.EBITDA}</td></tr>
-                        <tr><td>P/E: </td><td>{stockDetail.PERatio}</td></tr>
-                        <tr><td>EPS: </td><td>{stockDetail.EPS}</td></tr>
-                        <tr><td>dividend: </td><td>{stockDetail.DividendPerShare}</td></tr>
-                        <tr><td>Shs Outstand: </td><td>{stockDetail.SharesOutstanding}</td></tr>
-                        <tr><td>Shs Float: </td><td>{stockDetail.SharesFloat}</td></tr>
-                        <tr><td>52 Wk High: </td><td>{stockDetail['52WeekHigh']}</td></tr>
-                        <tr><td>52 Wk Low: </td><td>{stockDetail['52WeekLow']}</td></tr>
+                        <tr><td className='colSpan-2 border-b-2 border-blue-900 font-bold text-black' colSpan={2}>Key stats</td></tr>
+                        <tr><td className='border-b-2 border-blue-900 text-black'>Market Cap: </td><td className='border-b-2 border-blue-900 text-black'>{stockDetail.MarketCapitalization}</td></tr>
+                        <tr><td className='border-b-2 border-blue-900 text-black'>EBITDA: </td><td className='border-b-2 border-blue-900 text-black'>{stockDetail.EBITDA}</td></tr>
+                        <tr><td className='border-b-2 border-blue-900 text-black'>P/E: </td><td className='border-b-2 border-blue-900 text-black'>{stockDetail.PERatio}</td></tr>
+                        <tr><td className='border-b-2 border-blue-900 text-black'>EPS: </td><td className='border-b-2 border-blue-900 text-black'>{stockDetail.EPS}</td></tr>
+                        <tr><td className='border-b-2 border-blue-900 text-black'>dividend: </td><td className='border-b-2 border-blue-900 text-black'>{stockDetail.DividendPerShare}</td></tr>
+                        <tr><td className='border-b-2 border-blue-900 text-black'>Shs Outstand: </td><td className='border-b-2 border-blue-900 text-black'>{stockDetail.SharesOutstanding}</td></tr>
+                        <tr><td className='border-b-2 border-blue-900 text-black'>Shs Float: </td><td className='border-b-2 border-blue-900 text-black'>{stockDetail.SharesFloat}</td></tr>
+                        <tr><td className='border-b-2 border-blue-900 text-black'>52 Wk High: </td><td className='border-b-2 border-blue-900 text-black'>{stockDetail['52WeekHigh']}</td></tr>
+                        <tr><td className='border-b-2 border-blue-900 text-black'>52 Wk Low: </td><td className='border-b-2 border-blue-900 text-black'>{stockDetail['52WeekLow']}</td></tr>
                         </tbody>
+
                     </table>
+
                 </div>
             )
             : (stockSymbol && (

@@ -18,28 +18,26 @@ export const Profile = () => {
     };
 
     return (
-        <Box className="bg-navy-blue text-white min-h-screen py-8">
-            <Box className="max-w-md mx-auto text-center">
-                <Heading className="text-3xl font-bold mb-4">Profile</Heading>
-                <Image src={user.image} alt="Profile" borderRadius="full" boxSize="150px" className="mx-auto mb-4" />
-                <Box className="text-lg mb-2"><strong>Name:</strong> {user.name}</Box>
-                <Box className="text-lg mb-2"><strong>Email:</strong> {user.email}</Box>
-                <Box className="text-lg mb-4"><strong>Bio:</strong> {user.bio}</Box>
-                <Box className="text-lg mb-2"><strong>Muslim:</strong> {user.isMuslim ? 'Yes' : 'No'}</Box>
-                <br></br>
-                <Link to="/editProfile" className="block w-full text-center py-2 bg-blue-600 text-white rounded hover:bg-blue-500 mb-4">
-                    Edit Profile
-                </Link>
-                <Box className="border-b border-white mb-4"></Box>
-                <Box className="flex flex-col items-center">
-                    {user.bankLinks.map((bank, index) => (
-                        <Box key={index} className="text-lg mb-2">
-                            <RouterLink href={bank.link} target="_blank" rel="noopener noreferrer" className="hover:underline">
-                                {bank.name} <ExternalLinkIcon mx="2px" />
-                            </RouterLink>
-                        </Box>
-                    ))}
-                </Box>
+        <Box className="bg-white shadow-lg rounded-lg overflow-hidden max-w-md mx-auto text-center p-8">
+            <Heading className="text-2xl font-bold mb-4 text-left">Profile</Heading>
+            <Image src={user.image} alt="Profile" borderRadius="full" boxSize="90px" className="mx-auto mb-4" />
+            <Box className="text-sm text-left mb-2"><strong>Name:</strong> {user.name}</Box>
+            <Box className="text-sm text-left mb-2"><strong>Email:</strong> {user.email}</Box>
+            <Box className="text-sm text-left mb-4"><strong>Bio:</strong> {user.bio}</Box>
+            <Box className="text-sm text-left mb-2"><strong>Muslim:</strong> {user.isMuslim ? 'Yes' : 'No'}</Box>
+            <br></br>
+            <Link to="/editProfile" className="block w-full text-center py-2 bg-blue-600 text-white rounded hover:bg-blue-500 mb-4">
+                Edit Profile
+            </Link>
+            <Box className="border-b border-gray-300 mb-4"></Box>
+            <Box className="flex flex-col items-center">
+                {user.bankLinks.map((bank, index) => (
+                    <Box key={index} className="text-sm mb-2 text-left">
+                        <RouterLink href={bank.link} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                            {bank.name} <ExternalLinkIcon mx="2px" />
+                        </RouterLink>
+                    </Box>
+                ))}
             </Box>
         </Box>
     );

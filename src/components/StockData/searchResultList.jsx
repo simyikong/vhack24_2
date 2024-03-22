@@ -38,9 +38,11 @@ const SearchResultList = ({suggestionList, seeStockDetail, selectStock}) => {
                     list && list.map(item =>
                         <li
                             key={item['1. symbol']}
-                            className='stock-list-item'
+                            className='stock-list-item bg-white rounded-md p-2 shadow-md cursor-pointer hover:bg-gray-100'
                             onClick={() => checkStockDetail(item['1. symbol'])}
-                        >{item['1. symbol']}</li>
+                        >
+                            {item['1. symbol']}
+                        </li>
                     )
                 }
             </ul>
