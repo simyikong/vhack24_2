@@ -16,35 +16,37 @@ const ModuleBox = ({ title, description, progress }) => {
         <NavLink to="/module1-chap1">
           <button className="start-button">View module</button>
         </NavLink>
-        </div>
+      </div>
     </div>
   );
 };
 
 const Module1KnowMore = () => (
   <div className="container">
+    <div className="cover-image">
+      <img src="path_to_your_image.jpg" alt="Cover Image" />
+    </div>
     <ModuleBox
-      title="Module I: Shariah Equities"
+      title="Shariah Equities"
       description="Learn more about Shariah-compliant trading and investing"
       progress={20} // Example progress value
     />
     <ModuleBox
-      title="Module II: Shariah Derivatives"
+      title="Shariah Derivatives"
       description="Learn more about Shariah-compliant derivatives products"
       progress={100} // Example progress value indicating completion
     />
     <ModuleBox
-      title="Module III: Bursa Suq As-Sila’"
+      title="Bursa Suq As-Sila’"
       description="Learn more about the commodity platform for Islamic Finance"
       progress={40} // Example progress value
     />
     <ModuleBox
-      title="Module IV: Islamic Social Finance"
+      title="Islamic Social Finance"
       description="Learn more about the socioeconomic importance in Islamic Financeyyy"
       progress={40} // Example progress value
     />
   </div>
 );
-
 
 export default Module1KnowMore;

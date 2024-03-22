@@ -6,11 +6,14 @@
 
 .module-box {
   width: 300px;
-  margin-right: 20px; /* Simulating the margin-right: 20px from .feed */
+  height: 250px; /* Set a shorter fixed height */
+  margin-right: 20px;
   padding: 20px;
-  margin-bottom: 20px; /* Adjust margin-bottom */
-  background-color: white; /* Set a white background */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow */
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
 }
 
 .module-box h2 {
@@ -19,20 +22,25 @@
   margin-bottom: 10px;
 }
 
-.module-box p {
-  font-size: 1rem;
+.module-box {
+  width: 300px;
+  height: 250px;
+  margin-right: 20px;
+  padding: 20px;
   margin-bottom: 20px;
-  overflow: hidden; /* Hide overflowing content */
-  display: -webkit-box;
-  -webkit-line-clamp: 3; /* Limit to 3 lines */
-  -webkit-box-orient: vertical;
-  text-overflow: ellipsis; /* Show ellipsis for overflow */
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column; /* Change flex direction to column */
 }
 
 .button-container {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
+  height: 100%; /* Ensure button container takes full height of module box */
 }
+
 
 .button-container button {
   border: none;

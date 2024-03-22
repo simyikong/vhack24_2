@@ -39,8 +39,23 @@ p {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .test-button:hover {
     background-color: #0056b3;
 }
+
+.video-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.video-container iframe {
+    width: 560px; /* Retain original width */
+    height: 315px; /* Retain original height */
+    max-width: 100%; /* Ensure responsiveness */
+}
+
