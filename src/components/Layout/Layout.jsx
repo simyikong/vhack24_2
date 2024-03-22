@@ -2,8 +2,11 @@ import Header from "./LayoutComponents/Header"
 import Sidebar from "./LayoutComponents/Sidebar"
 import styles from "./Layout.module.css"
 import { Flex } from "@chakra-ui/react"
+import React from "react";
+
 
 function Layout({ children }) {
+
     return (
         <div className={styles.layout}>
             <Sidebar />
