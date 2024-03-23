@@ -1,0 +1,71 @@
+/* Module1Chap1.css */
+
+.module1-chap1-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.test-button {
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.test-button:hover {
+    background-color: #334290;
+}
+
+.video-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.video-container iframe {
+    width: 560px; /* Retain original width */
+    height: 315px; /* Retain original height */
+    max-width: 100%; /* Ensure responsiveness */
+}
+
+/* Bold all titles */
+.section h2 {
+    font-weight: bold;
+}
+
+/* Add padding above and below videos */
+.section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

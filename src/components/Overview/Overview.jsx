@@ -18,10 +18,12 @@ function Overview() {
 
     useEffect(() => {
         const isFirstVisit = localStorage.getItem('isFirstVisit');
-        if (!isFirstVisit) {
-            setIsOpen(true);
-            localStorage.setItem('isFirstVisit', 'no');
-        }
+        // Uncomment this block to show the alert dialog only on the first visit
+        // if (!isFirstVisit) { 
+        //     setIsOpen(true);
+        //     localStorage.setItem('isFirstVisit', 'no');
+        // }
+        setIsOpen(true);
     }, []);
 
     return (
