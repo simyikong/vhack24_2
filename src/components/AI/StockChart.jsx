@@ -42,7 +42,7 @@ function StockChart() {
 
     return (
         <center>
-            <div className="bg-blue-200 text-white p-4 rounded-lg shadow-md">
+            <div className="bg-blue-200 text-white p-4 rounded-lg shadow-md mb-4">
                 <h1 className="text-xl font-bold">Stock Market Predictions</h1>
             </div>
 
