@@ -27,7 +27,6 @@ function Sidebar() {
                     <NavLink to={"/learning"}><li><FaUniversity /><span>Academy</span></li></NavLink>
                     <NavLink to={"/wallet"}><li><BiWallet /><span>Wallet</span></li></NavLink>
                     <NavLink to={"/news"}><li><HiOutlineNewspaper /><span>News</span></li></NavLink>
-            
                 </ul>
                 <ul>
                     <Divider />
