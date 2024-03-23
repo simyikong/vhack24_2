@@ -34,6 +34,7 @@ import Module7Chap1 from "./components/Learning/Module7/Modul7Chap1/Module7Chap1
 import StockChart from "./components/AI/StockChart.jsx";
 import ChatBot from "react-simple-chatbot";
 
+
 function App() {
   const { user } = useContext(DataContext)
 

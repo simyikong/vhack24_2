@@ -7,7 +7,7 @@ function Logo(props) {
         <Box
             display='flex'
             alignItems='center'
-            fontSize={size ? size : '1rem'}
+            fontSize={size ? size : '4rem'}
             fontFamily='Kodchasan'
             fontWeight='bold'
             color='var(--color-primary)'
@@ -17,7 +17,7 @@ function Logo(props) {
                 bgGradient='linear(to-l, var(--color-primary) 10%, var(--color-secondary))'
                 bgClip='text'
             >
-                VHACK24
+                investZER0
             </Text>
         </Box>
     )

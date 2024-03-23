@@ -39,9 +39,9 @@ export const Welcomme = () => {
                         <Box textAlign='center'>
                             <Heading display='inline' fontWeight='500'>
                                 {`Get started now and`}<br />
-                                {`take control of your finances! `}
+                                {`master the art of trading with investZER0 ! `}
                             </Heading>
-                            <Text fontSize='1rem' display='inline'>*</Text>
+                            <Text fontSize='1rem' display='inline'>**</Text>
                         </Box>
                         <form className={`${styles.welcommeForm} box`} onSubmit={(e) => handleSubmit(e)}>
                             <FormLabel w='100%'>Name:
@@ -62,7 +62,7 @@ export const Welcomme = () => {
                             </FormLabel>
                             <Button
                                 variant='solid'
-                                colorScheme='brand'
+                                colorScheme={name.length > 2 ? 'primary' : 'pink'}
                                 type='submit'
                                 w='100%'
                             >
@@ -70,16 +70,16 @@ export const Welcomme = () => {
                             </Button>
                         </form>
                     </Box>
-                    <Text fontSize='0.9rem'>
-                        {`* This web application is a demo project. By using this app you are not dealing with real stock market values. Feel free to use it safely and have fun :)`}
+                    <Text fontSize='0.8rem'>
+                        {`** This is a Real Time Stock Simulator , feel free to learn & explore more :)`}
                     </Text>
                 </GridItem>
                 <GridItem className={styles.rightGrid} colSpan={6} display='flex' flexDirection='column' justifyContent='center' alignItems='center' gap='40px' >
-                    <Box w='80%' display='flex' justifyContent='center' borderBottom='1.5px solid #ccc'>
-                        <Image w='500px' marginBottom='-1.5px' src="/images/dashboard-color-secondary.svg" />
-                    </Box>
+                    {/*<Box w='80%' display='flex' justifyContent='center' borderBottom='1.5px solid #ccc'>*/}
+                        <Image w='500px' marginTop='100px' marginBottom='-1.5px' src="/images/dashboard-color-secondary.svg" />
+                    {/*</Box>*/}
                     <Text className={styles.welcommeInfo}>
-                        {`Everything you need to efficiently manage your investments in one place.`}
+                        {`Manage your finance and learn trading today with investZER0. `}
                     </Text>
                 </GridItem>
             </Grid>

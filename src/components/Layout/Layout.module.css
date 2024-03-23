@@ -32,6 +32,21 @@
     border-bottom: 1px solid var(--color-border-light);
 }
 
+.submenu {
+    display: none;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    top: -62px;
+    left: 110%;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.visible {
+    display: block;
+}
+
 .menuList button {
     display: flex;
     justify-content: right;

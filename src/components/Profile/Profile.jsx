@@ -7,7 +7,7 @@ export const Profile = () => {
     const user = {
         name: 'John Doe',
         email: 'john.doe@example.com',
-        bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        bio: 'Lorem ipsum .',
         image: './public/images/Above+Avalon+Neil+Cybart.png', // Placeholder image URL
         isMuslim: false,
         bankLinks: [
