@@ -45,7 +45,6 @@
   .cover-image-container {
     width: 100%;
     height: auto; /* Adjust the height as needed */
-    max-height: 34vh;
     overflow: hidden;
     padding-bottom: 20px; /* Ensure bottom padding */
   }

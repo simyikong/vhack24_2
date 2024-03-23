@@ -15,8 +15,22 @@ import EditProfile from "./components/Profile/EditProfile.jsx"
 import AllStocks from "./components/StockData/AllStocks.jsx";
 import Learning from "./components/Learning/LearningPage.jsx"
 import {CalcInv} from "./components/Wallet/CalcInv.jsx";
+
 import Module1KnowMore from "./components/Learning/Module1/Module1KnowMore.jsx";
 import Module1Chap1 from "./components/Learning/Module1/Modul1Chap1/Module1Chap1.jsx";
+import Module2KnowMore from "./components/Learning/Module2/Module2KnowMore.jsx";
+import Module2Chap1 from "./components/Learning/Module2/Modul2Chap1/Module2Chap1.jsx";
+import Module3KnowMore from "./components/Learning/Module3/Module3KnowMore.jsx";
+import Module3Chap1 from "./components/Learning/Module3/Modul3Chap1/Module3Chap1.jsx";
+import Module4KnowMore from "./components/Learning/Module4/Module4KnowMore.jsx";
+import Module4Chap1 from "./components/Learning/Module4/Modul4Chap1/Module4Chap1.jsx";
+import Module5KnowMore from "./components/Learning/Module5/Module5KnowMore.jsx";
+import Module5Chap1 from "./components/Learning/Module5/Modul5Chap1/Module5Chap1.jsx";
+import Module6KnowMore from "./components/Learning/Module6/Module6KnowMore.jsx";
+import Module6Chap1 from "./components/Learning/Module6/Modul6Chap1/Module6Chap1.jsx";
+import Module7KnowMore from "./components/Learning/Module7/Module7KnowMore.jsx";
+import Module7Chap1 from "./components/Learning/Module7/Modul7Chap1/Module7Chap1.jsx";
+
 import StockChart from "./components/AI/StockChart.jsx";
 import ChatBot from "react-simple-chatbot";
 
@@ -44,9 +58,23 @@ function App() {
               <Route path='/editProfile' element={<EditProfile />} />
               <Route path='/learning' element={<Learning />} />
               <Route path='/calcInv' element={<CalcInv />} />
+              <Route path='/stock-predictions' element={<StockChart />} />
+
               <Route path='/module1-knowmore' element={<Module1KnowMore />} />
               <Route path='/module1-chap1' element={<Module1Chap1 />} />
-              <Route path='/stock-predictions' element={<StockChart />} />
+              <Route path='/module2-knowmore' element={<Module2KnowMore />} />
+              <Route path='/module2-chap1' element={<Module2Chap1 />} />
+              <Route path='/module3-knowmore' element={<Module3KnowMore />} />
+              <Route path='/module3-chap1' element={<Module3Chap1 />} />
+              <Route path='/module4-knowmore' element={<Module4KnowMore />} />
+              <Route path='/module4-chap1' element={<Module4Chap1 />} />
+              <Route path='/module5-knowmore' element={<Module5KnowMore />} />
+              <Route path='/module5-chap1' element={<Module5Chap1 />} />
+              <Route path='/module6-knowmore' element={<Module6KnowMore />} />
+              <Route path='/module6-chap1' element={<Module6Chap1 />} />
+              <Route path='/module7-knowmore' element={<Module7KnowMore />} />
+              <Route path='/module7-chap1' element={<Module7Chap1 />} />
+            
             </Routes>
               <ChatBot
                   headerTitle="InvestBot"
