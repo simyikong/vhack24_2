@@ -7,7 +7,7 @@ function EditProfile() {
         name: 'John Doe',
         email: 'john.doe@example.com',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        image: 'https://via.placeholder.com/150',
+        image: './public/images/Above+Avalon+Neil+Cybart.png',
         isMuslim: false,
         bankLinks: [
             { name: 'Bank A', link: 'https://bankA.com' },
@@ -42,25 +42,26 @@ function EditProfile() {
             <Image src={state.image} alt="Profile" borderRadius="full" boxSize="90px" className="mx-auto mb-4" />
             <form onSubmit={handleSubmit}>
                 <Box className="text-xs text-left mb-2">
-                    <strong>Name:</strong>
-                    <Input type="text" name="name" value={state.name} onChange={handleInputChange} />
+                    <strong className='text-sm font-bold mb-4 text-left'>Name:</strong>
+                    <Input type="text" name="name" className='text-sm text-left mb-2 border border-grey border-opacity-25 p-3 rounded-lg shadow-sm flex-grow' value={state.name} onChange={handleInputChange} />
                 </Box>
                 <Box className="text-xs text-left mb-2">
-                    <strong>Email:</strong>
-                    <Input type="email" name="email" value={state.email} onChange={handleInputChange} />
+                    <strong className='text-sm font-bold mb-4 text-left'>Email:</strong>
+                    <Input type="email" name="email" className='text-sm text-left mb-2 border border-grey border-opacity-25 p-3 rounded-lg shadow-sm flex-grow' value={state.email} onChange={handleInputChange} />
                 </Box>
                 <Box className="text-xs text-left mb-2">
-                    <strong>Bio:</strong>
+                    <strong className='text-sm font-bold mb-4 text-left'>Bio:</strong>
                     <Textarea
+                        className='text-sm text-left mb-2 border border-grey border-opacity-25 p-3 rounded-lg shadow-sm flex-grow'
                         name="bio"
                         value={state.bio}
                         onChange={handleInputChange}
                         size="xs"
-                        fontSize="0.7rem"
+                        fontSize="1.0rem"
                     />
                 </Box>
-                <Box className="text-xs text-left mb-4">
-                    <Text display="inline-block">Are you a Muslim?</Text>
+                <Box className="text-xs text-left mb-4 flex">
+                    <strong className='text-sm font-bold text-left'>Are you a Muslim?</strong>
                     <Spacer />
                     <Checkbox
                         size="lg"

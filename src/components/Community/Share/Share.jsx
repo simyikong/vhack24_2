@@ -6,7 +6,7 @@ export default function Share() {
     <div className="sharebox"> {/* Add the 'box' class here */}
       <div className="shareWrapper">
         <div className="shareTop">
-        <FaUserCircle  size={50} />
+        <FaUserCircle src  size={50} />
           <input
             placeholder=" Share something.."
             className="shareInput"
