@@ -16,7 +16,7 @@ const Module1Chap1 = () => {
                 <h2>1.1 Introduction to Shariah-Compliant Investing</h2>
                 <p>Shariah-compliant investing adheres to the principles of Islamic law, or Shariah. It prohibits investments in certain industries and activities considered haram (forbidden) in Islam, such as alcohol, gambling, pork, and interest-bearing financial instruments. Instead, Shariah-compliant investments focus on ethical and socially responsible businesses that align with Islamic values.</p>
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mZ5d604Wl4I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -31,7 +31,7 @@ const Module1Chap1 = () => {
 
                     4. Risk-Sharing: Investments should involve sharing both profits and losses between investors and entrepreneurs, promoting a sense of partnership and mutual responsibility.</p>
                     <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EvMHwP-rXHE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -45,7 +45,7 @@ const Module1Chap1 = () => {
 
                     3. Debt Screening: Companies with excessive debt levels or involved in interest-bearing transactions are excluded.</p>
                     <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PHeckNZ6NOI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -59,7 +59,7 @@ const Module1Chap1 = () => {
 
                     3. Sukuk (Islamic Bonds): Debt instruments that comply with Islamic finance principles, typically based on asset-backed financing arrangements.</p>
                     <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/j9CuC2R8fb0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -67,7 +67,7 @@ const Module1Chap1 = () => {
                 <h2>1.5 Conclusion</h2>
                 <p>Shariah-compliant investing offers a unique approach to financial markets, combining ethical considerations with investment objectives. By adhering to Islamic principles, investors can align their financial activities with their religious and ethical beliefs while participating in global financial markets.</p>
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/K5aahpY0URI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -77,3 +77,4 @@ const Module1Chap1 = () => {
 };
 
 export default Module1Chap1;
+

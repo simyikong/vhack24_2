@@ -95,8 +95,9 @@ export const Users = [
   export const Posts = [
     {
       id: 1,
-      desc: "Love For All, Hatred For None.",
-      photo: "assets/post/1.jpeg",
+      photo: "assets/post/3.jpeg",
+      title: "Apple and Google's AI: Who pays whom?",
+      desc: "The uncertainty over whether Apple might pay to license AI from Google, or whether the latter might instead subsidize its programs on Apple’s iPhone, shows just how the “Gen AI” craze is playing havoc with business models.",
       date: "5 mins ago",
       userId: 1,
       like: 32,
@@ -104,7 +105,9 @@ export const Users = [
     },
     {
       id: 2,
-      photo: "assets/post/2.jpeg",
+      photo: "assets/post/3.jpeg",
+      title: "Looking into Abacus Life - ABL",
+      desc: "Hey everyone - Was checking out ABL as they were brought up in discord recently so i went over a press release and saw that: \n Abacus Life, Inc. (NASDAQ: ABL) is rebranding its technology division to ABL Tech, signaling a strategic move towards innovation. \n ABL Tech will offer a range of tech-driven solutions, including mortality verification using AI, valuation services, and a blockchain-powered marketplace. \nLed by CEO Jay Jackson and Vice President Vincent Pellegrino, ABL Tech aims to pioneer transformative change in pension risk management and simplify pensions through innovative data solutions. \nThey are also announcing Q4 results on Thursday, March 21, 2024 so im going to stay tuned for that but in the meantime how does everyone feel about this. Cheers guys.",
       date: "15 mins ago",
       userId: 2,
       like: 2,
@@ -112,7 +115,20 @@ export const Users = [
     },
     {
       id: 3,
-      desc: "Every moment is a fresh beginning.",
+      title: "Tesla (TSLA): 10-K Analysis (2023 Fiscal Year)",
+      desc: `Based on the information provided in the 10-K report, here are the good, bad, and ugly aspects of the company: 
+      Good: 
+      Strong revenue growth: Tesla reported total revenues of $96.77 billion in 2023, representing an increase of $15.31 billion (19%) compared to the previous year. 
+      Profitability: The company achieved a net income of $14.97 billion in 2023, a favorable change of $2.44 billion compared to 2022. 
+      Expanding product lineup: Tesla introduced the Cybertruck, a full-size electric pickup truck, in November 2023, and has plans for additional vehicle models, including a next-generation platform. 
+      Vertical integration: Tesla is focused on vertically integrating its operations, including developing and manufacturing its own battery cells, to improve efficiency and reduce costs. 
+      Technological advancements: The company continues to invest in research and development, particularly in areas such as artificial intelligence, self-driving capabilities, and battery technology. 
+      Bad: 
+      Supply chain constraints: Tesla has faced challenges in securing adequate supplies of components and raw materials, which could impact production and profitability. 
+      Competition: The electric vehicle market is becoming increasingly competitive, with established automakers and new entrants introducing their own electric vehicle models. 
+      Regulatory risks: Tesla's operations are subject to various government regulations and incentives, which can change and impact demand for their products. 
+      Dependence on key personnel: The company's success is heavily dependent on the leadership and vision of Elon Musk, the CEO, and other key executives. 
+      Litigation risks: Tesla is involved in various legal proceedings and investigations, which could result in significant liabilities and reputational damage. `,       
       photo: "assets/post/3.jpeg",
       date: "1 hour ago",
       userId: 3,
@@ -122,61 +138,15 @@ export const Users = [
     {
       id: 4,
       photo: "assets/post/4.jpeg",
-      date: "4 hours ago",
-      userId: 4,
-      like: 7,
-      comment: 3,
+    title: "What do you think of this portfolio?",
+    desc: `Rolls Royce, fiverr, sofi, whirlpool, Netflix, baker Hughes, flux power, fubotv, disney, PayPal, tesla, alibaba, Shopify, Starbucks, Roku, alphabet, Microsoft, amazon.
+            All have similar ish investments. Rolls Royce has a huge position of 17% though because of gains.`,
+    date: "4 hours ago",
+    userId: 2,
+    like: 7,
+    comment: 3,
     },
-    {
-      id: 5,
-      photo: "assets/post/5.jpeg",
-      date: "5 hours ago",
-      userId: 5,
-      like: 23,
-      comment: 5,
-    },
-    {
-      id: 6,
-      photo: "assets/post/6.jpeg",
-      date: "1 day ago",
-      userId: 6,
-      like: 44,
-      comment: 6,
-    },
-    {
-      id: 7,
-      desc: "Never regret anything that made you smile.",
-      photo: "assets/post/7.jpeg",
-      date: "2 days ago",
-      userId: 7,
-      like: 52,
-      comment: 3,
-    },
-    {
-      id: 8,
-      photo: "assets/post/8.jpeg",
-      date: "3 days ago",
-      userId: 8,
-      like: 15,
-      comment: 1,
-    },
-    {
-      id: 9,
-      desc: "Change the world by being yourself.",
-      photo: "assets/post/9.jpeg",
-      date: "5 days ago",
-      userId: 9,
-      like: 11,
-      comment: 2,
-    },
-    {
-      id: 10,
-      photo: "assets/post/10.jpeg",
-      date: "1 week ago",
-      userId: 10,
-      like: 104,
-      comment: 12,
-    },
+   
   ];
 
   export const Stocks = [

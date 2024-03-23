@@ -1,5 +1,5 @@
 import React from 'react';
-import './Module1KnowMore.css'; // Assuming LearningPage.css is where you'll put your CSS
+import './Module1KnowMore.css';
 import { NavLink } from 'react-router-dom'; 
 
 const ModuleBox = ({ title, description, progress }) => {
@@ -23,30 +23,31 @@ const ModuleBox = ({ title, description, progress }) => {
 
 const Module1KnowMore = () => (
   <div className="container">
-    <div className="cover-image">
-      <img src="path_to_your_image.jpg" alt="Cover Image" />
+    <div className="cover-image-container">
+      <img src="/images/module_cover.jpg" alt="Cover Image" />
     </div>
     <ModuleBox
       title="Shariah Equities"
       description="Learn more about Shariah-compliant trading and investing"
-      progress={20} // Example progress value
+      progress={20}
     />
     <ModuleBox
       title="Shariah Derivatives"
       description="Learn more about Shariah-compliant derivatives products"
-      progress={100} // Example progress value indicating completion
+      progress={100}
     />
     <ModuleBox
       title="Bursa Suq As-Sila’"
       description="Learn more about the commodity platform for Islamic Finance"
-      progress={40} // Example progress value
+      progress={40}
     />
     <ModuleBox
       title="Islamic Social Finance"
-      description="Learn more about the socioeconomic importance in Islamic Financeyyy"
-      progress={40} // Example progress value
+      description="Learn more about the socioeconomic importance in Islamic Finance"
+      progress={40}
     />
   </div>
 );
 
 export default Module1KnowMore;
+

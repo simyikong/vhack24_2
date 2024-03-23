@@ -33,7 +33,7 @@ p {
 
 .test-button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: var(--color-primary);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -43,7 +43,7 @@ p {
 }
 
 .test-button:hover {
-    background-color: #0056b3;
+    background-color: #334290;
 }
 
 .video-container {
@@ -59,3 +59,13 @@ p {
     max-width: 100%; /* Ensure responsiveness */
 }
 
+/* Bold all titles */
+.section h2 {
+    font-weight: bold;
+}
+
+/* Add padding above and below videos */
+.section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

@@ -21,7 +21,7 @@ function Sidebar() {
                 <ul>
                     <NavLink to={"/overview"} ><li><MdOutlineDashboard /><span>Overview</span></li></NavLink>
                     <NavLink to={"/stocks"}><li><TbZoomMoney /><span>Stocks</span></li></NavLink>
-                    <NavLink to={"/ai"}><li><TbStars /><span>AI</span></li></NavLink>
+                    <NavLink to={"/stock-predictions"}><li><TbStars /><span>AI</span></li></NavLink>
                     <NavLink to={"/investments"}><li><BsBarChartLine /><span>Investments</span></li></NavLink>
                     <NavLink to={"/community"}><li><BiGroup /><span>Forum</span></li></NavLink>
                     <NavLink to={"/learning"}><li><FaUniversity /><span>Academy</span></li></NavLink>

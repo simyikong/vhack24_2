@@ -3,7 +3,7 @@ import axios from 'axios';
 import SearchIcon from '@material-ui/icons/Search';
 import SearchResultList from './searchResultList.jsx';
 
-const API_KEY = 'W3RLH13DI7DYTJIO';
+const API_KEY = '3Q1JEJYUL45YPFLZ';
 const API_BASE_URL = 'https://www.alphavantage.co/query';
 
 const SearchInput = ({ selectedStock, seeStockDetail }) => {
