@@ -8,6 +8,7 @@ function Group() {
   return (
     <div className="groupContainer">
       <div className="groupList">
+        <br></br>
         {groups.map((group, index) => (
           <div 
             key={index} 

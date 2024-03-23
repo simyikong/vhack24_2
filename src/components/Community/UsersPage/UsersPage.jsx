@@ -8,6 +8,7 @@ function UsersPage() {
   return (
     <div className="userContainer">
       <div className="userList">
+        <br></br>
         {Users.map((user, index) => (
           <div 
             key={index} 
