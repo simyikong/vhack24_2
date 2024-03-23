@@ -62,7 +62,7 @@ export const Welcomme = () => {
                             </FormLabel>
                             <Button
                                 variant='solid'
-                                colorScheme={name.length > 2 ? 'primary' : 'pink'}
+                                colorScheme='pink'
                                 type='submit'
                                 w='100%'
                             >
