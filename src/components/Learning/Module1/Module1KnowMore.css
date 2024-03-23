@@ -1,91 +1,62 @@
-.module-detail-container {
-    width: 100vw; /* Set width to fill the viewport width */
-    margin: 20px auto;
-}
-
-.module-details {
-    padding: 20px;
-    background-color: #fff;
+.module-box {
+    background-color: #f8f9fa;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
     margin-bottom: 20px;
-}
-
-.module-details h1 {
-    color: #333;
-    font-size: 28px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .module-box h2 {
+    margin-top: 0;
+  }
+  
+  .module-box p {
     margin-bottom: 10px;
-    font-weight: bold;
-}
-
-.module-details p {
-    color: #555;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 0;
-}
-
-.chapters-objectives {
-    display: flex;
-}
-
-.chapters {
-    flex: 1;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    margin-right: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-}
-
-.chapters h2 {
-    color: #333;
-    font-size: 20px;
-    margin-top: 20px;
-    font-weight: bold;
-}
-
-.chapters ol {
-    margin-left: 20px;
-    padding-left: 20px;
-}
-
-.chapter-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.chapter-info {
-    flex: 1;
-    text-align: left;
-}
-
-.tick-column {
-    flex: 0 0 auto; /* Fixed width for the tick column */
-    margin-right: 10px; /* Adjusted margin to move the tick column slightly to the left */
-}
-
-.tick-mark {
-    color: green;
-    font-weight: bold;
-    margin-right: 5px;
-}
-
-.start-button-container {
-    margin-left: 10px;
-}
-
-.start-button {
+  }
+  
+  .progress-bar {
+    height: 25px; /* Same height as the button */
+    background-color: #e9ecef;
+    border-radius: 4px;
+  }
+  
+  .progress {
+    background-color: #28a745;
+  }
+  
+  .button-container {
+    margin-top: 10px;
+  }
+  
+  .start-button {
     padding: 8px 16px;
     background-color: var(--color-primary);
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
-
-.start-button:hover {
+  }
+  
+  .start-button:hover {
     background-color: #334290;
-}
+  }
+
+  .cover-image-container {
+    width: 100%;
+    height: auto; /* Adjust the height as needed */
+    overflow: hidden;
+    padding-bottom: 20px; /* Ensure bottom padding */
+  }
+  
+  .cover-image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  
+  
+  
+  
+  

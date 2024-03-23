@@ -4,6 +4,7 @@
     height: fit-content; /* Change height to fit-content */
     border-radius: 10px;
     box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    
   }
   
   .shareWrapper {
@@ -14,6 +15,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 10px; /* Add margin bottom for separation */
+    
   }
   
   .shareProfileImg {
@@ -28,6 +30,7 @@
     border: none;
     flex: 1; /* Make the input take remaining space */
     color: var(--color-dark);
+    background-color: #e9eef5
   }
   
   .shareInput:focus {
@@ -49,6 +52,7 @@
     display: flex; /* Use flexbox to align items horizontally */
     align-items: center; /* Align items vertically */
     margin-left: 20px;
+    
   }
   
   .shareOption {

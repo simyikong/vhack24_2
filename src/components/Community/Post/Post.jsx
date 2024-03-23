@@ -1,5 +1,6 @@
 import { Users } from "../dummyData.js";
 import { useState } from "react";
+import { FaUserCircle } from 'react-icons/fa';
 import "./Post.css"; // Import Post.css for component-specific styles
 
 export default function Post({ post }) {
@@ -16,11 +17,7 @@ export default function Post({ post }) {
       <div className="postWrapper">
         <div className="postTop">
           <div className="postTopLeft">
-            <img
-              className="postProfileImg"
-              src={Users.filter((u) => u.id === post?.userId)[0].profilePicture}
-              alt=""
-            />
+          <FaUserCircle  size={30} />
             <span className="postUsername">
               {Users.filter((u) => u.id === post?.userId)[0].username}
             </span>
@@ -45,3 +42,4 @@ export default function Post({ post }) {
     </div>
   );
 }
+

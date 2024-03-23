@@ -1,11 +1,12 @@
 import "./Share.css";
+import { FaUserCircle } from 'react-icons/fa';
 
 export default function Share() {
   return (
     <div className="sharebox"> {/* Add the 'box' class here */}
       <div className="shareWrapper">
         <div className="shareTop">
-          <img className="shareProfileImg" src="/assets/person/1.jpeg" alt="" />
+        <FaUserCircle  size={50} />
           <input
             placeholder=" Share something.."
             className="shareInput"

@@ -23,6 +23,7 @@ const Learning = () => (
     <ModuleBox
       title="Equities"
       description="Learn All About Securities and How to Build a Diversified Investment Portfolio"
+      
     />
     <ModuleBox
       title="Derivatives"
