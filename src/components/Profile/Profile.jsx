@@ -8,7 +8,7 @@ export const Profile = () => {
         name: 'John Doe',
         email: 'john.doe@example.com',
         bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        image: 'https://via.placeholder.com/150', // Placeholder image URL
+        image: './public/images/Above+Avalon+Neil+Cybart.png', // Placeholder image URL
         isMuslim: false,
         bankLinks: [
             { name: 'Bank A', link: 'https://bankA.com' },

@@ -153,7 +153,7 @@ function Header() {
             >
               <Box display='flex' justifyContent='right' alignItems='center' gap='10px'>
                 <Text textTransform='capitalize' fontWeight='500'>{user.userName.length > 10 ? user.userName.slice(0, 9) + '...' : user.userName}</Text>
-                <Avatar boxSize='35px' className='avatar'><AvatarBadge boxSize='1em' bg='green.500' /></Avatar>
+                <Avatar boxSize='35px' className='avatar' src="./public/images/Above+Avalon+Neil+Cybart.png"><AvatarBadge boxSize='1em' bg='green.500' /></Avatar>
               </Box>
             </MenuButton>
             <MenuList className={styles.menuList}>
