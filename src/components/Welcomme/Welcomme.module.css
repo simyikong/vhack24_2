@@ -10,6 +10,15 @@
     grid-template-columns: repeat(10, 1fr);
 }
 
+.disclaimer{
+    padding-top: 28px;
+    padding-left: 460px;
+}
+
+.logo{
+    padding-left: 40px;
+}
+
 .rightGrid {
     background-image: radial-gradient(  #0F4268 0%, #23A1FD 140%);
 }

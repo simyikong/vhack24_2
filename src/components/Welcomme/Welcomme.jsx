@@ -31,9 +31,9 @@ export const Welcomme = () => {
     return (
         <Box className={styles.bg} >
             <Grid className={styles.mainGrid}>
-                <GridItem className={styles.leftGrid} colSpan={4} p='6%'>
-                    <Box w='100%' display='flex' justifyContent='space-between' alignItems='center'>
-                        <Logo size='2rem' />
+                <GridItem className={styles.leftGrid} colSpan={10} p='6%'>
+                    <Box className={styles.logo} w='100%' display='flex' justifyContent='space-between' alignItems='center'>
+                        <Logo size='3rem' />
                     </Box>
                     <Box h='80%' display='flex' flexDirection='column' justifyContent='center' alignItems='center' gap='40px'>
                         <Box textAlign='center'>
@@ -70,18 +70,16 @@ export const Welcomme = () => {
                             </Button>
                         </form>
                     </Box>
-                    <Text fontSize='0.8rem'>
-                        {`** This is a Real Time Stock Simulator , feel free to learn & explore more :)`}
+                    <Text className={styles.disclaimer}   fontSize='0.8rem'>
+                        {`** This is a Real Time Stock Simulator.`}
                     </Text>
                 </GridItem>
-                <GridItem className={styles.rightGrid} colSpan={6} display='flex' flexDirection='column' justifyContent='center' alignItems='center' gap='40px' >
-                    {/*<Box w='80%' display='flex' justifyContent='center' borderBottom='1.5px solid #ccc'>*/}
-                        <Image w='500px' marginTop='100px' marginBottom='-1.5px' src="/images/dashboard-color-secondary.svg" />
-                    {/*</Box>*/}
-                    <Text className={styles.welcommeInfo}>
-                        {`Manage your finance and learn trading today with investZER0. `}
-                    </Text>
-                </GridItem>
+                {/*<GridItem className={styles.rightGrid} colSpan={6} display='flex' flexDirection='column' justifyContent='center' alignItems='center' gap='40px' >*/}
+                {/*        <Image w='500px' marginTop='100px' marginBottom='-1.5px' src="/images/dashboard-color-secondary.svg" />*/}
+                {/*    <Text className={styles.welcommeInfo}>*/}
+                {/*        {`Manage your finance and learn trading today with investZER0. `}*/}
+                {/*    </Text>*/}
+                {/*</GridItem>*/}
             </Grid>
         </Box>
     )
