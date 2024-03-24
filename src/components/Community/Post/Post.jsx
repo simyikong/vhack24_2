@@ -1,7 +1,7 @@
 import { Users } from "../dummyData.js";
 import { useState } from "react";
-import { FaUserCircle } from 'react-icons/fa';
-import "./Post.css"; // Import Post.css for component-specific styles
+import { FaHeart, FaComment } from 'react-icons/fa'; // Import necessary icons
+import "./Post.css";
 
 export default function Post({ post }) {
   const [like, setLike] = useState(post.like);
@@ -12,34 +12,47 @@ export default function Post({ post }) {
     setIsLiked(!isLiked);
   };
 
+  // Find the user who made the post
+  const user = Users.find((user) => user.id === post.userId);
+
   return (
-    <div className="post box"> {/* Add 'box' class here */}
+    <div className="post box">
       <div className="postWrapper">
         <div className="postTop">
           <div className="postTopLeft">
-          <FaUserCircle  size={30} />
+            <img
+              className="postProfileImg"
+              src={user.profilePicture} // Use the profile picture of the user
+              alt=""
+            />
             <span className="postUsername">
-              {Users.filter((u) => u.id === post?.userId)[0].username}
+              {user.username} {/* Display the username of the user */}
             </span>
             <span className="postDate">{post.date}</span>
           </div>
         </div>
         <div className="postCenter">
-          <span className="postText">{post?.desc}</span>
-          <img className="postImg" src={post.photo} alt="" />
+          <span className="postText">{post.desc}</span>
+          {/* Assuming there's a 'photo' field in the post object, display it here */}
+          {post.photo && <img className="postImg" src={post.photo} alt="" />}
         </div>
         <div className="postBottom">
-          <div className="postBottomLeft">
-            <img className="likeIcon" src="assets/like.png" onClick={likeHandler} alt="" />
-            <img className="likeIcon" src="assets/heart.png" onClick={likeHandler} alt="" />
-            <span className="postLikeCounter">{like} people like it</span>
-          </div>
-          <div className="postBottomRight">
-            <span className="postCommentText">{post.comment} discussions</span>
+          <div className="postActions">
+            <div className="postAction" onClick={likeHandler}>
+              {isLiked ? (
+                <FaHeart className="postActionIcon liked" />
+              ) : (
+                <FaHeart className="postActionIcon" />
+              )}
+              <span className="postLikeCounter">{like} people like it</span>
+            </div>
+            <div className="postAction">
+              <FaComment className="postActionIcon" />
+              <span className="postCommentText">{post.comment} discussions</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 }
-

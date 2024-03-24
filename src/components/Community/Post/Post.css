@@ -81,3 +81,40 @@
     
   }
   
+  .postActions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .postAction {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  /* Add the following CSS at the end of your existing styles */
+
+/* Add the following CSS at the end of your existing styles */
+
+.postActionIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.postActionIcon.liked {
+  fill: red; /* Change the color to your liking */
+}
+
+  
+  .postLikeCounter,
+  .postCommentText {
+    font-size: 15px;
+    color: var(--color-dark);
+  }
+  
+  .postCommentText {
+    border-bottom: 1px dashed gray;
+  }

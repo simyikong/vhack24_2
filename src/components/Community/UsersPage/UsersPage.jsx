@@ -22,9 +22,6 @@ function UsersPage() {
               <h2 className="username" style={{ color: hoveredIndex === index ? 'white' : 'black' }}>
                 {user.username}
               </h2>
-              <p className="userId" style={{ color: hoveredIndex === index ? 'white' : 'black' }}>
-                ID: {user.id}
-              </p>
               <p className="userOccupation" style={{ color: hoveredIndex === index ? 'white' : 'black' }}>
                 Occupation: {user.occupation}
               </p>

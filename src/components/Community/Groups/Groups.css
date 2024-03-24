@@ -9,7 +9,6 @@
      margin-right: 20px;
 }
 
-
 .groupList {
     width: 100%; /* Ensure the list fills the available width */
 }
@@ -31,15 +30,16 @@
 }
 
 .groupCover {
-width: 100px;
-height: 100px;
-object-fit: cover;
-border-radius: 50%;
-margin-right: 20px;
+    width: 100px; /* Increase width */
+    height: 100px; /* Increase height */
+    border-radius: 50%; /* Ensure round shape */
+    margin-right: 100px; /* Reduce right margin to move it more towards center */
+    margin-left: 50px; /* Add left margin to balance */
 }
 
 .groupDetails {
-flex: 1;
+    flex: 1;
+    text-align:left
 }
 
 .groupName {
@@ -49,11 +49,10 @@ flex: 1;
     font-weight: bold; /* Correct placement of fontWeight */
 }
 
-
 .groupMemberCount,
 .groupCreated,
 .groupDescription {
-margin: 5px 0;
-font-size: 14px;
-color: black;
+    margin: 5px 0;
+    font-size: 14px;
+    color: black;
 }

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './Groups.css'; // 
-import { groups } from './../dummyData.js'; 
+import './Groups.css'; // Import CSS file for Groups
+import { groups } from './../dummyData.js'; // Import groups array from dummyData.js 
 
-function Group() { 
+function Groups() { 
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
@@ -39,4 +39,4 @@ function Group() {
   );
 }
 
-export default Group;
+export default Groups;
