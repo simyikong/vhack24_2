@@ -2,6 +2,7 @@
     background-color: #f8f9fa;
     border-radius: 8px;
     padding: 20px;
+    height: 250px;
     margin-bottom: 20px;
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -16,16 +17,7 @@
     margin-bottom: 10px;
   }
   
-  .progress-bar {
-    height: 25px; /* Same height as the button */
-    background-color: #e9ecef;
-    border-radius: 4px;
-  }
-  
-  .progress {
-    background-color: #28a745;
-  }
-  
+
   .button-container {
     margin-top: 10px;
   }
