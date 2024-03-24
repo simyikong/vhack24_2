@@ -16,7 +16,7 @@ const Module7Chap1 = () => {
                 <h2>7.1 Introduction to Fund Investing</h2>
                 <p>Fund investing involves pooling money together with other investors to buy a collection of stocks, bonds, or other securities. This can provide diversification and professional management, but also comes with fees and other considerations.</p>
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mZ5d604Wl4I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GVSsEwxK5Ao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -25,7 +25,7 @@ const Module7Chap1 = () => {
                 <p>
                     There are several types of funds, including mutual funds, index funds, and exchange-traded funds (ETFs). Each type has its own advantages and disadvantages, and the best choice depends on your individual circumstances and investment goals.</p>
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EvMHwP-rXHE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3VbGf402bwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -33,7 +33,7 @@ const Module7Chap1 = () => {
                 <h2>7.3 Benefits of Fund Investing</h2>
                 <p>Fund investing can provide diversification, professional management, and convenience. However, it also comes with fees and other costs, and the performance of a fund can be affected by its size, strategy, and management.</p>
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PHeckNZ6NOI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mXlobkli5tI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -41,7 +41,7 @@ const Module7Chap1 = () => {
                 <h2>7.4 Risks of Fund Investing</h2>
                 <p>While fund investing can provide diversification and professional management, it also comes with risks. These include market risk, management risk, and the risk of high fees and expenses.</p>
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/j9CuC2R8fb0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/j9CuC2R8fb" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -49,7 +49,7 @@ const Module7Chap1 = () => {
                 <h2>7.5 Conclusion</h2>
                 <p>Fund investing can be a valuable part of a diversified investment portfolio. However, like all investments, it's important to understand the risks and rewards before investing.</p>
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/K5aahpY0URI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/95ocNa_rsjM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 

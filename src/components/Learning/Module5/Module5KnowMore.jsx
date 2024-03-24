@@ -13,7 +13,7 @@ const ModuleBox = ({ title, description, progress }) => {
         <div className="progress" style={{ width: `${progress}%` }}></div>
       </div>
       <div className="button-container">
-        <NavLink to="/module1-chap1">
+        <NavLink to="/module5-chap1">
           <button className="start-button">View module</button>
         </NavLink>
       </div>

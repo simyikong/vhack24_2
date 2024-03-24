@@ -21,6 +21,11 @@ const ModuleBox = ({ title, description, progress, link }) => {
 const Learning = () => (
   <div className="container">
     <ModuleBox
+      title="Shariah"
+      description="Know More About Shariah-compliant Trading and Investing"
+      link="/module1-knowmore"
+    />
+    <ModuleBox
       title="Equities"
       description="Learn All About Securities and How to Build a Diversified Investment Portfolio"
       link="/module2-knowmore"
@@ -29,11 +34,6 @@ const Learning = () => (
       title="Derivatives"
       description="Enhance Your Trading Strategies by Cultivating Your Knowledge on Derivatives."
       link="/module3-knowmore"
-    />
-    <ModuleBox
-      title="Shariah"
-      description="Know More About Shariah-compliant Trading and Investing"
-      link="/module1-knowmore"
     />
     <ModuleBox
       title="Sustainability"

@@ -16,7 +16,7 @@ const Module6Chap1 = () => {
                 <h2>6.1 Introduction to Fixed Income Investments</h2>
                 <p>Fixed income investments are a type of investment where the borrower or issuer is obliged to make payments of a fixed amount on a fixed schedule. This includes government and corporate bonds, certificates of deposit, and preferred stock.</p>
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mZ5d604Wl4I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Dpd2_0eIcn8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -25,7 +25,7 @@ const Module6Chap1 = () => {
                 <p>
                     Fixed income investments provide a steady stream of income, making them a popular choice for conservative investors and retirees. They also help to diversify a portfolio and reduce risk.</p>
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EvMHwP-rXHE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uE3xUEaG5X8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -33,7 +33,7 @@ const Module6Chap1 = () => {
                 <h2>6.3 Types of Fixed Income Investments</h2>
                 <p>There are several types of fixed income investments, including government bonds, corporate bonds, municipal bonds, certificates of deposit, and preferred stock. Each type has its own risk and reward profile.</p>
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PHeckNZ6NOI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0YTlYJEy-jA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -41,7 +41,7 @@ const Module6Chap1 = () => {
                 <h2>6.4 Risks of Fixed Income Investments</h2>
                 <p>While fixed income investments are generally considered less risky than stocks, they do carry some risks. These include interest rate risk, credit risk, and inflation risk.</p>
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/j9CuC2R8fb0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ydhVF2Qg7oU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -49,7 +49,7 @@ const Module6Chap1 = () => {
                 <h2>6.5 Conclusion</h2>
                 <p>Fixed income investments can provide a stable return and are an important part of a diversified portfolio. However, like all investments, it's important to understand the risks and rewards before investing.</p>
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/K5aahpY0URI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QblauuhiDRg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
