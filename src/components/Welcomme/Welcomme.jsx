@@ -31,20 +31,21 @@ export const Welcomme = () => {
     return (
         <Box className={styles.bg} >
             <Grid className={styles.mainGrid}>
-                <GridItem className={styles.leftGrid} colSpan={10} p='6%'>
+                <GridItem className={styles.leftGrid} colSpan={10} p='3%'>
                     <Box className={styles.logo} w='100%' display='flex' justifyContent='space-between' alignItems='center'>
                         <Logo size='3rem' />
                     </Box>
-                    <Box h='80%' display='flex' flexDirection='column' justifyContent='center' alignItems='center' gap='40px'>
-                        <Box textAlign='center'>
-                            <Heading display='inline' fontWeight='500'>
-                                {`Get started now and`}<br />
-                                {`master the art of trading with investZER0 ! `}
-                            </Heading>
-                            <Text fontSize='1rem' display='inline'>**</Text>
-                        </Box>
-                        <form className={`${styles.welcommeForm} box`} onSubmit={(e) => handleSubmit(e)}>
-                            <FormLabel w='100%'>Name:
+                    <Box h='70%' display='flex' flexDirection='column' justifyContent='center' alignItems='center' gap='40px'>
+
+                        <form className="bg-white bg-opacity-95 p-4 rounded shadow-md" onSubmit={(e) => handleSubmit(e)}>
+                            <Box textAlign='center'>
+                                <Heading display='inline' fontWeight='500'>
+                                    {`Get started now and`} <br/>
+                                    {`master the art of trading with investZERO ! `}
+                                </Heading>
+                                <Text fontSize='1rem' display='inline'>**</Text>
+                            </Box>
+                            <FormLabel w='100%'><br/>Name:
                                 <Input name="name" isRequired onChange={(e) => setName(e.currentTarget.value)} value={name} type='text' placeholder='Your Name' />
                                 <span style={{ color: "red" }}>{validationMessage}</span>
                             </FormLabel>
@@ -60,6 +61,7 @@ export const Welcomme = () => {
                                     </Input>
                                 </InputGroup>
                             </FormLabel>
+                            <br/>
                             <Button
                                 variant='solid'
                                 colorScheme='pink'
@@ -69,12 +71,13 @@ export const Welcomme = () => {
                                 Start
                             </Button>
                         </form>
+                        {/* <Text class="font-medium" fontSize='0.60em'>
+                            {`** This is a Real Time Stock Simulator.`}
+                        </Text> */}
                     </Box>
-                    <Text className={styles.disclaimer}   fontSize='0.8rem'>
-                        {`** This is a Real Time Stock Simulator.`}
-                    </Text>
+
                 </GridItem>
-                {/*<GridItem className={styles.rightGrid} colSpan={6} display='flex' flexDirection='column' justifyContent='center' alignItems='center' gap='40px' >*/}
+                {/*<GridItem className={styles.rightGri‰d} colSpan={6} display='flex' flexDirection='column' justifyContent='center' alignItems='center' gap='40px' >*/}
                 {/*        <Image w='500px' marginTop='100px' marginBottom='-1.5px' src="/images/dashboard-color-secondary.svg" />*/}
                 {/*    <Text className={styles.welcommeInfo}>*/}
                 {/*        {`Manage your finance and learn trading today with investZER0. `}*/}
