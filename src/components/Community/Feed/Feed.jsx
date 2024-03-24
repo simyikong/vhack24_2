@@ -15,23 +15,24 @@ export default function Feed() {
 
   return (
     <div className="feed">
-      {/* Feed Controls */}
-      <div className="feedControls">
-        <button className={feedType === 'newest' ? 'active' : ''} onClick={() => handleFeedTypeChange('newest')}>
-          Newest
-        </button>
-        <button className={feedType === 'trending' ? 'active' : ''} onClick={() => handleFeedTypeChange('trending')}>
-          Trending
-        </button>
-      </div>
-      
-      {/* Feed Wrapper */}
-      <div className="feedWrapper">
-        <Share />
-        {filteredPosts.map((p) => (
-          <Post key={p.id} post={p} />
-        ))}
-      </div>
-    </div>
+  {/* Feed Controls */}
+  <div className="feedControls">
+    <button className={feedType === 'newest' ? 'active' : ''} onClick={() => handleFeedTypeChange('newest')}>
+      Newest
+    </button>
+    <button className={feedType === 'trending' ? 'active' : ''} onClick={() => handleFeedTypeChange('trending')}>
+      Trending
+    </button>
+  </div>
+  
+  {/* Feed Wrapper */}
+  <div className="feedWrapper">
+    <Share />
+    {filteredPosts.map((p) => (
+      <Post key={p.id} post={p} />
+    ))}
+  </div>
+</div>
+
   );
 }

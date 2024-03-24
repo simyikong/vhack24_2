@@ -24,14 +24,41 @@
 
 .module-box {
   width: 300px;
-  height: 250px;
+  height: 210px;
   margin-right: 20px;
   padding: 20px;
   margin-bottom: 20px;
-  background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column; /* Change flex direction to column */
+}
+
+.pink-baby-color {
+  background-color: #ffb6c1; /* Pink */
+}
+
+.blue-baby-color {
+  background-color: #add8e6; /* Light Blue */
+}
+
+.yellow-baby-color {
+  background-color: #ffff99; /* Yellow */
+}
+
+.green-baby-color {
+  background-color: #98fb98; /* Pale Green */
+}
+
+.purple-baby-color {
+  background-color: #e6e6fa; /* Lavender */
+}
+
+.orange-baby-color {
+  background-color: #ffcc99; /* Peach */
+}
+
+.teal-baby-color {
+  background-color: #a7ffd6; /* Pale Teal */
 }
 
 .button-container {

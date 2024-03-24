@@ -32,6 +32,7 @@
   transition: all 0.3s ease;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  
 }
 
 .feedOptions button.active {
@@ -49,9 +50,9 @@
 /* Styles for feed controls */
 .feedControls {
   display: flex;
-  justify-content: center;
-  margin-top: 50px; /* Adjust margin to accommodate fixed feed options */
-  margin-bottom: 20px;
+  justify-content: flex-start; /* Changed from 'center' to 'flex-start' */
+  margin-top: 60px; /* Adjust margin to accommodate fixed feed options */
+  margin-left: 20px;
 }
 
 .feedControls button {
